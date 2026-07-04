@@ -27,7 +27,7 @@ window.POSTS = [
     updatedAt: "2026-05-10",
     featured: false,
     hasFaq: true,
-    related: ["mu-saengchae", "vegetable-storage", "expiry-vs-best-before"]
+    related: ["mu-saengchae", "vegetable-storage", "jangajji-brine-ratio"]
   },
   {
     slug: "myeolchi-bokkeum",
@@ -51,7 +51,7 @@ window.POSTS = [
     updatedAt: "2026-06-02",
     featured: true,
     hasFaq: false,
-    related: ["bokkeumbap-rice", "starter-tools"]
+    related: ["bokkeumbap-rice", "one-bowl-balance"]
   },
   {
     slug: "basic-broth",
@@ -63,7 +63,7 @@ window.POSTS = [
     updatedAt: "2026-04-02",
     featured: true,
     hasFaq: true,
-    related: ["measuring-habit", "heat-control"]
+    related: ["measuring-habit", "ramen-add-ins-order"]
   },
   {
     slug: "bokkeumbap-rice",
@@ -87,7 +87,7 @@ window.POSTS = [
     updatedAt: "2026-06-18",
     featured: true,
     hasFaq: false,
-    related: ["measuring-habit", "pan-coating-care", "knife-care"]
+    related: ["measuring-habit", "fridge-cleanout", "knife-care"]
   },
   {
     slug: "measuring-habit",
@@ -99,7 +99,7 @@ window.POSTS = [
     updatedAt: "2026-05-06",
     featured: false,
     hasFaq: false,
-    related: ["starter-tools", "basic-broth"]
+    related: ["starter-tools", "recipe-following-mistakes"]
   },
   {
     slug: "heat-control",
@@ -123,7 +123,7 @@ window.POSTS = [
     updatedAt: "2026-06-30",
     featured: true,
     hasFaq: false,
-    related: ["knife-care", "cutting-board-hygiene"]
+    related: ["knife-care", "container-guide"]
   },
   {
     slug: "knife-care",
@@ -147,7 +147,7 @@ window.POSTS = [
     updatedAt: "2026-06-05",
     featured: false,
     hasFaq: true,
-    related: ["knife-care", "meat-storage"]
+    related: ["dishcloth-hygiene", "meat-storage"]
   },
   {
     slug: "vegetable-storage",
@@ -159,7 +159,7 @@ window.POSTS = [
     updatedAt: "2026-07-01",
     featured: true,
     hasFaq: false,
-    related: ["banchan-storage", "expiry-vs-best-before"]
+    related: ["banchan-storage", "scallion-garlic-storage"]
   },
   {
     slug: "meat-storage",
@@ -183,6 +183,126 @@ window.POSTS = [
     updatedAt: "2026-07-02",
     featured: true,
     hasFaq: true,
-    related: ["vegetable-storage", "banchan-storage"]
+    related: ["vegetable-storage", "egg-freshness-storage"]
+  },
+  {
+    slug: "jangajji-brine-ratio",
+    title: "장아찌 만들 때 소금물 비율과 숙성 기간",
+    summary:
+      "장아찌가 너무 짜거나 금방 물러지는 건 대부분 소금물 비율과 숙성 기간 때문입니다. 기본 비율을 정리했습니다.",
+    category: "banchan",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    featured: false,
+    hasFaq: true,
+    related: ["banchan-storage", "mu-saengchae"]
+  },
+  {
+    slug: "muchim-timing",
+    title: "나물무침, 미리 무쳐두면 안 되는 이유",
+    summary:
+      "나물무침을 미리 무쳐두면 시간이 지날수록 물이 생기고 간이 변합니다. 무치는 타이밍을 정리했습니다.",
+    category: "banchan",
+    publishedAt: "2026-04-18",
+    updatedAt: "2026-04-18",
+    featured: false,
+    hasFaq: false,
+    related: ["mu-saengchae", "banchan-storage"]
+  },
+  {
+    slug: "one-bowl-balance",
+    title: "덮밥 메뉴 균형 잡기, 초보자를 위한 기본 비율",
+    summary:
+      "덮밥은 밥과 소스 비율, 재료 구성에 따라 완성도가 크게 달라집니다. 초보자가 참고할 기본 균형을 정리했습니다.",
+    category: "one-dish",
+    publishedAt: "2026-04-29",
+    updatedAt: "2026-06-10",
+    featured: true,
+    hasFaq: false,
+    related: ["measuring-habit", "kimchi-bokkeumbap"]
+  },
+  {
+    slug: "ramen-add-ins-order",
+    title: "라면에 넣는 부재료, 순서에 따라 달라지는 맛",
+    summary:
+      "같은 재료를 넣어도 순서에 따라 라면 맛이 달라집니다. 부재료를 넣는 기본 순서를 정리했습니다.",
+    category: "one-dish",
+    publishedAt: "2026-05-20",
+    updatedAt: "2026-05-20",
+    featured: false,
+    hasFaq: false,
+    related: ["basic-broth", "heat-control"]
+  },
+  {
+    slug: "fridge-cleanout",
+    title: "냉장고 파먹기, 남은 재료로 반찬 만드는 기준",
+    summary:
+      "냉장고에 조금씩 남은 재료를 활용하는 기준을 정리했습니다. 자취요리에서 특히 유용한 접근법입니다.",
+    category: "beginner",
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-07-04",
+    featured: true,
+    hasFaq: false,
+    related: ["starter-tools", "vegetable-storage"]
+  },
+  {
+    slug: "recipe-following-mistakes",
+    title: "레시피 그대로 따라 해도 자꾸 실패하는 이유",
+    summary:
+      "레시피를 그대로 따랐는데도 결과가 다르다면, 재료 상태나 조리 환경 차이를 점검할 필요가 있습니다.",
+    category: "beginner",
+    publishedAt: "2026-06-08",
+    updatedAt: "2026-06-08",
+    featured: false,
+    hasFaq: false,
+    related: ["measuring-habit", "heat-control"]
+  },
+  {
+    slug: "container-guide",
+    title: "밀폐용기 고르는 기준과 세척·보관 요령",
+    summary:
+      "밀폐용기는 재질과 용도에 따라 관리 방식이 다릅니다. 고르는 기준과 세척·보관 요령을 정리했습니다.",
+    category: "kitchen-tools",
+    publishedAt: "2026-06-15",
+    updatedAt: "2026-06-15",
+    featured: false,
+    hasFaq: true,
+    related: ["pan-coating-care", "knife-care"]
+  },
+  {
+    slug: "dishcloth-hygiene",
+    title: "행주·수세미 위생 관리, 교체 주기",
+    summary:
+      "행주와 수세미는 주방에서 세균이 가장 빨리 번식하는 도구 중 하나입니다. 관리 습관과 교체 주기를 정리했습니다.",
+    category: "kitchen-tools",
+    publishedAt: "2026-06-22",
+    updatedAt: "2026-06-22",
+    featured: false,
+    hasFaq: false,
+    related: ["cutting-board-hygiene", "knife-care"]
+  },
+  {
+    slug: "scallion-garlic-storage",
+    title: "자주 남는 대파·마늘, 손질해서 오래 보관하는 법",
+    summary:
+      "대파와 마늘은 손질 방식에 따라 보관 기간이 크게 달라집니다. 오래 두고 쓰는 손질법을 정리했습니다.",
+    category: "ingredients",
+    publishedAt: "2026-06-29",
+    updatedAt: "2026-07-03",
+    featured: true,
+    hasFaq: true,
+    related: ["vegetable-storage", "meat-storage"]
+  },
+  {
+    slug: "egg-freshness-storage",
+    title: "달걀 보관과 신선도 확인하는 법",
+    summary:
+      "달걀은 보관 위치와 방식에 따라 신선도 유지 기간이 달라집니다. 신선도를 확인하는 기본 방법도 함께 정리했습니다.",
+    category: "ingredients",
+    publishedAt: "2026-07-04",
+    updatedAt: "2026-07-04",
+    featured: false,
+    hasFaq: true,
+    related: ["expiry-vs-best-before", "vegetable-storage"]
   }
 ];
