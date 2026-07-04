@@ -244,6 +244,13 @@ p { margin: 0 0 1em; }
   gap: 40px;
   align-items: center;
 }
+.hero-compact {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.hero-compact .hero-inner {
+  grid-template-columns: 1fr;
+}
 .hero-eyebrow {
   display: inline-block;
   background: #FDE9D3;
@@ -292,6 +299,9 @@ p { margin: 0 0 1em; }
 .section {
   padding: 48px 20px;
 }
+.section-flush-top {
+  padding-top: 32px;
+}
 .section-alt {
   background: var(--color-sub);
 }
@@ -312,6 +322,9 @@ p { margin: 0 0 1em; }
 .section-body {
   max-width: var(--max-width);
   margin: 0 auto;
+}
+.section-body-narrow {
+  max-width: 760px;
 }
 .section-link {
   font-weight: 700;
@@ -442,6 +455,7 @@ p { margin: 0 0 1em; }
 }
 .owner-name-link:hover { color: var(--color-main-dark); }
 .owner-box p { font-size: 0.92rem; color: var(--color-ink-light); margin: 4px 0 10px; }
+.owner-box p:first-of-type { margin-bottom: 2px; }
 
 /* ---------- 편집 원칙 ---------- */
 .principle-list {
