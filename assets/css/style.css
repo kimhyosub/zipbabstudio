@@ -491,6 +491,20 @@ p { margin: 0 0 1em; }
   padding: 14px 0;
   margin: 18px 0;
 }
+.article-hero-img {
+  width: 100%;
+  max-height: 360px;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+  margin: 0 0 8px;
+}
+.category-hero-img {
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+  margin-top: 20px;
+}
 .article-body {
   max-width: var(--content-width);
   margin: 0 auto;
