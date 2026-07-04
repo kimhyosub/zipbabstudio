@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>칼럼 | 집밥연구소</title>
+<meta name="description" content="집밥연구소 운영자 한끼연구원이 쓰는 칼럼 목록입니다. 레시피 정보와는 다른, 운영자의 관점과 관찰이 담긴 글을 확인하세요.">
+<link rel="canonical" href="https://www.zipbabstudio.com/columns/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="칼럼 | 집밥연구소">
+<meta property="og:description" content="집밥연구소 운영자 한끼연구원의 칼럼 목록">
+<meta property="og:url" content="https://www.zipbabstudio.com/columns/">
+<meta property="og:site_name" content="집밥연구소">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="칼럼 | 집밥연구소">
+<link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg">
+<link rel="stylesheet" href="/assets/css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://www.zipbabstudio.com/" },
+    { "@type": "ListItem", "position": 2, "name": "칼럼", "item": "https://www.zipbabstudio.com/columns/" }
+  ]
+}
+</script>
+</head>
+<body>
+<a href="#main" class="skip-link">본문으로 바로가기</a>
+<header class="site-header" id="site-header"></header>
+<nav class="breadcrumb" aria-label="브레드크럼">
+  <ol>
+    <li><a href="/">홈</a></li>
+    <li aria-current="page">칼럼</li>
+  </ol>
+</nav>
+
+<main id="main">
+  <div class="hero column-hero" style="padding-top:32px;padding-bottom:32px;">
+    <div class="hero-inner" style="grid-template-columns:1fr;">
+      <div>
+        <span class="hero-eyebrow">칼럼</span>
+        <h1>운영자의 관점이 담긴 글</h1>
+        <p class="hero-lead">칼럼은 일반 정보글과 달리, 운영자 <a class="owner-name-link" href="/author/">한끼연구원</a>이 콘텐츠를 준비하며 느낀 관찰과 생각을 담은 글입니다.</p>
+      </div>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="section-body">
+      <div class="post-grid" id="columnList"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer" id="site-footer"></footer>
+
+<script src="/data/site.config.js"></script>
+<script src="/data/categories.js"></script>
+<script src="/data/posts.js"></script>
+<script src="/data/columns.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/auth.js"></script>
+<script>
+  (function () {
+    var sorted = (window.COLUMNS || []).slice().sort(function (a, b) {
+      return new Date(b.updatedAt) - new Date(a.updatedAt);
+    });
+    window.HCL.renderColumnCards("columnList", sorted);
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,188 @@
+/**
+ * 글(포스트) 메타데이터
+ * 홈/카테고리/사이트맵 목록에 쓰이는 요약 정보입니다.
+ * 실제 본문은 posts/<slug>/index.html에 직접 작성되어 있으며,
+ * 본문을 수정할 때는 이 파일의 summary/updatedAt도 함께 맞춰주는 것을 권장합니다.
+ */
+window.POSTS = [
+  {
+    slug: "mu-saengchae",
+    title: "무생채 간 맞추기, 초보자가 자주 틀리는 포인트",
+    summary:
+      "무생채가 싱겁거나 짜지는 이유는 대부분 소금 타이밍과 물기 제거에 있습니다. 기본 비율과 순서를 정리했습니다.",
+    category: "banchan",
+    publishedAt: "2026-02-14",
+    updatedAt: "2026-02-14",
+    featured: true,
+    hasFaq: false,
+    related: ["banchan-storage", "myeolchi-bokkeum"]
+  },
+  {
+    slug: "banchan-storage",
+    title: "밑반찬 냉장 보관 기간, 반찬 종류별로 다르게 봐야 하는 이유",
+    summary:
+      "밑반찬은 수분 함량과 간의 세기에 따라 보관 기간이 크게 달라집니다. 반찬 종류별 대략적인 보관 기준을 정리했습니다.",
+    category: "banchan",
+    publishedAt: "2026-02-28",
+    updatedAt: "2026-05-10",
+    featured: false,
+    hasFaq: true,
+    related: ["mu-saengchae", "vegetable-storage", "expiry-vs-best-before"]
+  },
+  {
+    slug: "myeolchi-bokkeum",
+    title: "멸치볶음이 눅눅해지는 이유와 바삭하게 유지하는 기본 원칙",
+    summary:
+      "멸치볶음이 시간이 지나면 눅눅해지는 건 대부분 수분과 식히는 방식 때문입니다. 초보자가 놓치기 쉬운 순서를 짚었습니다.",
+    category: "banchan",
+    publishedAt: "2026-03-09",
+    updatedAt: "2026-03-09",
+    featured: false,
+    hasFaq: false,
+    related: ["banchan-storage", "pan-coating-care"]
+  },
+  {
+    slug: "kimchi-bokkeumbap",
+    title: "자취생도 실패 없는 김치볶음밥, 재료 손질부터 순서까지",
+    summary:
+      "김치볶음밥이 애매한 맛이 되는 건 대개 김치 상태와 넣는 순서 때문입니다. 기본 순서를 단계별로 정리했습니다.",
+    category: "one-dish",
+    publishedAt: "2026-03-20",
+    updatedAt: "2026-06-02",
+    featured: true,
+    hasFaq: false,
+    related: ["bokkeumbap-rice", "starter-tools"]
+  },
+  {
+    slug: "basic-broth",
+    title: "국물 요리 입문자를 위한 기본 육수 잡는 법",
+    summary:
+      "국물 요리가 매번 밍밍하거나 잡내가 난다면 육수 내는 순서부터 점검할 필요가 있습니다. 기본적인 육수 베이스를 정리했습니다.",
+    category: "one-dish",
+    publishedAt: "2026-04-02",
+    updatedAt: "2026-04-02",
+    featured: true,
+    hasFaq: true,
+    related: ["measuring-habit", "heat-control"]
+  },
+  {
+    slug: "bokkeumbap-rice",
+    title: "볶음밥이 질척해지는 이유와 밥 상태 맞추는 법",
+    summary:
+      "볶음밥이 떡지는 대부분의 원인은 밥의 수분 상태와 화력에 있습니다. 밥 짓는 시점부터 점검하는 방법을 정리했습니다.",
+    category: "one-dish",
+    publishedAt: "2026-04-11",
+    updatedAt: "2026-04-11",
+    featured: false,
+    hasFaq: false,
+    related: ["kimchi-bokkeumbap", "heat-control"]
+  },
+  {
+    slug: "starter-tools",
+    title: "자취 요리 처음 시작할 때 갖춰야 할 최소한의 조리도구",
+    summary:
+      "처음부터 도구를 다 갖출 필요는 없습니다. 입문 단계에서 우선순위를 두고 갖추면 좋은 도구를 정리했습니다.",
+    category: "beginner",
+    publishedAt: "2026-04-25",
+    updatedAt: "2026-06-18",
+    featured: true,
+    hasFaq: false,
+    related: ["measuring-habit", "pan-coating-care", "knife-care"]
+  },
+  {
+    slug: "measuring-habit",
+    title: "계량 없이 요리하다 실수하는 이유와 계량 습관 만들기",
+    summary:
+      "레시피의 '적당히'가 어렵게 느껴지는 이유와, 계량 도구 없이도 기준을 잡아가는 방법을 정리했습니다.",
+    category: "beginner",
+    publishedAt: "2026-05-06",
+    updatedAt: "2026-05-06",
+    featured: false,
+    hasFaq: false,
+    related: ["starter-tools", "basic-broth"]
+  },
+  {
+    slug: "heat-control",
+    title: "불 조절이 어려운 초보를 위한 화력별 요리 가이드",
+    summary:
+      "레시피의 '중불', '센 불' 표현이 헷갈리는 이유와, 가정용 화구 기준으로 화력을 가늠하는 방법을 정리했습니다.",
+    category: "beginner",
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    featured: true,
+    hasFaq: true,
+    related: ["bokkeumbap-rice", "basic-broth"]
+  },
+  {
+    slug: "pan-coating-care",
+    title: "프라이팬 코팅 오래 쓰는 관리법, 초보가 놓치는 습관",
+    summary:
+      "코팅 프라이팬의 수명을 줄이는 건 대부분 세척과 화력 습관입니다. 코팅을 오래 유지하는 기본 관리법을 정리했습니다.",
+    category: "kitchen-tools",
+    publishedAt: "2026-05-22",
+    updatedAt: "2026-06-30",
+    featured: true,
+    hasFaq: false,
+    related: ["knife-care", "cutting-board-hygiene"]
+  },
+  {
+    slug: "knife-care",
+    title: "칼 관리 기본, 무뎌지는 이유와 초보자의 관리 루틴",
+    summary:
+      "칼이 금방 무뎌지는 이유는 대부분 보관 방식과 사용 습관에 있습니다. 초보자가 부담 없이 실천할 수 있는 관리 루틴을 정리했습니다.",
+    category: "kitchen-tools",
+    publishedAt: "2026-05-29",
+    updatedAt: "2026-05-29",
+    featured: false,
+    hasFaq: false,
+    related: ["pan-coating-care", "cutting-board-hygiene"]
+  },
+  {
+    slug: "cutting-board-hygiene",
+    title: "도마 위생 관리, 교차 오염 막는 기본 원칙",
+    summary:
+      "도마 하나로 채소와 육류를 함께 손질하면 교차 오염 위험이 커집니다. 가정에서 실천 가능한 기본 원칙을 정리했습니다.",
+    category: "kitchen-tools",
+    publishedAt: "2026-06-05",
+    updatedAt: "2026-06-05",
+    featured: false,
+    hasFaq: true,
+    related: ["knife-care", "meat-storage"]
+  },
+  {
+    slug: "vegetable-storage",
+    title: "채소별 보관법 총정리, 냉장과 냉동 기준 나누기",
+    summary:
+      "채소는 종류에 따라 보관 온도와 방식이 크게 달라집니다. 자주 사는 채소를 기준으로 보관 원칙을 정리했습니다.",
+    category: "ingredients",
+    publishedAt: "2026-06-12",
+    updatedAt: "2026-07-01",
+    featured: true,
+    hasFaq: false,
+    related: ["banchan-storage", "expiry-vs-best-before"]
+  },
+  {
+    slug: "meat-storage",
+    title: "육류 손질 후 보관, 냉동실 활용하는 기본 원칙",
+    summary:
+      "육류는 손질 방식에 따라 냉동 후 품질 차이가 크게 납니다. 초보자가 따라 하기 쉬운 손질·보관 순서를 정리했습니다.",
+    category: "ingredients",
+    publishedAt: "2026-06-19",
+    updatedAt: "2026-06-19",
+    featured: false,
+    hasFaq: false,
+    related: ["cutting-board-hygiene", "vegetable-storage"]
+  },
+  {
+    slug: "expiry-vs-best-before",
+    title: "유통기한과 소비기한 차이, 식재료 폐기 기준 잡기",
+    summary:
+      "유통기한이 지났다고 바로 버려야 하는 건 아닙니다. 소비기한과의 차이를 이해하면 불필요한 폐기를 줄일 수 있습니다.",
+    category: "ingredients",
+    publishedAt: "2026-06-26",
+    updatedAt: "2026-07-02",
+    featured: true,
+    hasFaq: true,
+    related: ["vegetable-storage", "banchan-storage"]
+  }
+];

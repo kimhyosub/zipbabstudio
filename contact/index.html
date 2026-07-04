@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>문의하기 | 집밥연구소</title>
+<meta name="description" content="집밥연구소에 궁금한 점이나 제안이 있다면 이메일로 문의해 주세요. 문의 방법과 응답 안내를 확인할 수 있습니다.">
+<link rel="canonical" href="https://www.zipbabstudio.com/contact/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="문의하기 | 집밥연구소">
+<meta property="og:description" content="집밥연구소에 궁금한 점이나 제안이 있다면 이메일로 문의해 주세요.">
+<meta property="og:url" content="https://www.zipbabstudio.com/contact/">
+<meta property="og:site_name" content="집밥연구소">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="문의하기 | 집밥연구소">
+<meta name="twitter:description" content="집밥연구소 문의 방법 안내">
+<link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg">
+<link rel="stylesheet" href="/assets/css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://www.zipbabstudio.com/" },
+    { "@type": "ListItem", "position": 2, "name": "문의하기", "item": "https://www.zipbabstudio.com/contact/" }
+  ]
+}
+</script>
+</head>
+<body>
+<a href="#main" class="skip-link">본문으로 바로가기</a>
+<header class="site-header" id="site-header"></header>
+<nav class="breadcrumb" aria-label="브레드크럼">
+  <ol>
+    <li><a href="/">홈</a></li>
+    <li aria-current="page">문의하기</li>
+  </ol>
+</nav>
+
+<main id="main">
+  <div class="hero" style="padding-top:32px;padding-bottom:32px;">
+    <div class="hero-inner" style="grid-template-columns:1fr;">
+      <div>
+        <span class="hero-eyebrow">문의하기</span>
+        <h1>궁금한 점을 알려주세요</h1>
+        <p class="hero-lead">집밥연구소는 이메일을 통한 문의만 받고 있습니다. 콘텐츠 오류 제보, 주제 제안, 협업 문의 모두 환영합니다.</p>
+      </div>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="section-body" style="max-width:760px;">
+      <div class="contact-methods">
+        <div class="contact-card">
+          <h3>이메일 문의</h3>
+          <p>가장 확실하게 연락이 닿는 방법입니다. 아래 이메일로 편하게 문의해 주세요.</p>
+          <p><a class="btn btn-outline" href="mailto:hyosub19@naver.com">hyosub19@naver.com</a></p>
+        </div>
+        <div class="contact-card">
+          <h3>응답에 대한 안내</h3>
+          <p>운영자가 직접 이메일을 확인하고 답변합니다. 문의량에 따라 답변까지 며칠 정도 걸릴 수 있는 점 양해 부탁드립니다.</p>
+        </div>
+      </div>
+
+      <h2>문의 폼</h2>
+      <p class="hint" style="margin-bottom:12px;">아래 폼은 화면 구성을 보여주기 위한 데모이며, 실제 전송 기능은 연결되어 있지 않습니다. 문의는 위의 이메일 주소로 보내주세요.</p>
+      <form id="contactForm" aria-describedby="contactFormNotice">
+        <div class="form-group">
+          <label for="cName">이름</label>
+          <input type="text" id="cName" name="name" placeholder="이름을 입력해 주세요">
+        </div>
+        <div class="form-group">
+          <label for="cEmail">이메일</label>
+          <input type="email" id="cEmail" name="email" placeholder="답변받을 이메일 주소">
+        </div>
+        <div class="form-group">
+          <label for="cMessage">문의 내용</label>
+          <textarea id="cMessage" name="message" rows="6" placeholder="문의하실 내용을 자유롭게 작성해 주세요"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">문의 내용 확인하기</button>
+      </form>
+      <p id="contactFormNotice" class="admin-notice" style="display:none;">이 폼은 데모용 UI입니다. 실제로 메일이 전송되지 않으니, 문의 내용은 hyosub19@naver.com으로 직접 보내주세요.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer" id="site-footer"></footer>
+
+<script src="/data/site.config.js"></script>
+<script src="/data/categories.js"></script>
+<script src="/data/posts.js"></script>
+<script src="/data/columns.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/auth.js"></script>
+<script>
+  document.getElementById("contactForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+    document.getElementById("contactFormNotice").style.display = "block";
+  });
+</script>
+</body>
+</html>

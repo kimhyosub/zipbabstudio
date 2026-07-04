@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>관리자 모드 | 집밥연구소</title>
+<meta name="description" content="집밥연구소 관리자 모드입니다. 워드프레스 느낌의 CMS-lite 데모이며 실제 보안 인증 시스템이 아닙니다.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg">
+<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body class="admin-body">
+
+<!-- 로그인 전 화면 -->
+<div class="admin-login-wrap" id="adminLoginWrap">
+  <div class="admin-login-card">
+    <div class="brand" style="margin-bottom:6px;">
+      <span class="brand-mark" aria-hidden="true">🍚</span>
+      <span>집밥연구소 관리자</span>
+    </div>
+    <p style="color:var(--color-ink-light);font-size:0.9rem;margin-bottom:18px;">CMS-lite 데모 관리자 모드에 로그인합니다.</p>
+
+    <div class="admin-notice">
+      이 관리자 모드는 <strong>정적 사이트용 CMS-lite 데모</strong>이며, 실제 보안 인증 시스템이 아닙니다.
+      로그인 상태는 이 브라우저의 localStorage에만 저장되며, 서버에서 검증되는 계정 시스템이 아닙니다.
+    </div>
+
+    <form id="loginForm">
+      <div class="form-group">
+        <label for="loginPassword">데모 비밀번호</label>
+        <input type="password" id="loginPassword" placeholder="demo1234">
+        <p class="hint">데모 비밀번호는 <code>demo1234</code> 입니다. 무엇을 입력해도 데모 로그인 버튼과 동일하게 동작합니다.</p>
+      </div>
+      <button type="submit" class="btn btn-primary" style="width:100%;">로그인</button>
+    </form>
+    <button type="button" id="demoLoginBtn" class="btn btn-ghost" style="width:100%;margin-top:10px;">데모 계정으로 바로 로그인</button>
+
+    <p style="margin-top:18px;"><a href="/" style="font-size:0.85rem;color:var(--color-ink-light);">← 사이트로 돌아가기</a></p>
+  </div>
+</div>
+
+<!-- 로그인 후 관리자 셸 -->
+<div class="admin-shell" id="adminShell">
+  <aside class="admin-sidebar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">🍚</span>
+      <span>집밥연구소<span class="brand-sub">관리자 모드</span></span>
+    </div>
+    <button class="admin-nav-item" data-route="dashboard">대시보드</button>
+    <button class="admin-nav-item" data-route="posts">일반 글 관리</button>
+    <button class="admin-nav-item" data-route="columns">칼럼 관리</button>
+    <button class="admin-nav-item" data-route="categories">카테고리</button>
+    <button class="admin-nav-item" data-route="settings">사이트 설정</button>
+    <div class="admin-sidebar-footer">
+      <p style="margin:0 0 8px;">이 데이터는 브라우저 저장소(localStorage)에 저장됩니다. 기기·브라우저가 바뀌면 유지되지 않을 수 있습니다.</p>
+      <button type="button" class="btn btn-sm btn-outline" id="logoutBtn" style="width:100%;">로그아웃</button>
+    </div>
+  </aside>
+
+  <div class="admin-main">
+    <div class="admin-notice">
+      이 화면은 <strong>워드프레스 느낌의 정적 CMS-lite 관리자 UI 데모</strong>입니다. 실제 데이터베이스·인증·권한 관리 시스템이 없으며,
+      여기서 저장한 내용은 이 브라우저의 localStorage에만 남고 실제 배포된 페이지 파일에는 반영되지 않습니다.
+      실제로 사이트에 반영하려면 JSON export 후 그 내용을 참고해 <code>data/posts.js</code>, <code>data/columns.js</code> 등과
+      해당 HTML 페이지를 직접 수정해야 합니다. 추후 Supabase, Firebase, Git 기반 CMS 등과 연동하면 실시간 반영도 가능합니다.
+    </div>
+
+    <!-- 대시보드 -->
+    <section class="admin-view" data-view="dashboard">
+      <div class="admin-topbar"><h1>대시보드</h1></div>
+      <div class="admin-cards" id="dashboardCards"></div>
+      <div class="admin-panel">
+        <h2>최근 수정된 콘텐츠</h2>
+        <table class="admin-table" id="recentTable">
+          <thead><tr><th>제목</th><th>유형</th><th>상태</th><th>수정일</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 일반 글 목록 -->
+    <section class="admin-view" data-view="posts">
+      <div class="admin-topbar">
+        <h1>일반 글 관리</h1>
+        <button class="btn btn-primary" data-route="posts/new">+ 새 글 작성</button>
+      </div>
+      <div class="admin-panel">
+        <table class="admin-table" id="postsTable">
+          <thead><tr><th>제목</th><th>카테고리</th><th>상태</th><th>추천</th><th>수정일</th><th>관리</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 글 작성/수정 폼 -->
+    <section class="admin-view" data-view="post-edit">
+      <div class="admin-topbar">
+        <h1 id="postEditTitle">새 글 작성</h1>
+        <div>
+          <button class="btn btn-outline" id="postPreviewBtn" type="button">미리보기</button>
+          <button class="btn btn-primary" id="postSaveBtn" type="button">저장</button>
+        </div>
+      </div>
+      <div class="admin-panel">
+        <div class="admin-form-grid">
+          <div class="form-group">
+            <label for="postTitle">제목</label>
+            <input type="text" id="postTitle">
+          </div>
+          <div class="form-group">
+            <label for="postSlug">슬러그 (URL)</label>
+            <input type="text" id="postSlug" placeholder="예: mu-saengchae">
+          </div>
+          <div class="form-group full">
+            <label for="postSummary">요약</label>
+            <textarea id="postSummary" rows="2"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="postCategory">카테고리</label>
+            <select id="postCategory"></select>
+          </div>
+          <div class="form-group">
+            <label for="postStatus">발행 상태</label>
+            <select id="postStatus">
+              <option value="draft">초안</option>
+              <option value="published">발행</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="postPublishedAt">작성일</label>
+            <input type="date" id="postPublishedAt">
+          </div>
+          <div class="form-group">
+            <label for="postUpdatedAt">수정일</label>
+            <input type="date" id="postUpdatedAt">
+          </div>
+          <div class="form-group full">
+            <label for="postBody">본문</label>
+            <textarea id="postBody" rows="8" placeholder="본문 내용을 입력하세요. (실제 배포 페이지는 posts/<슬러그>/index.html 파일을 직접 수정해야 합니다)"></textarea>
+          </div>
+          <div class="form-group full">
+            <label for="postFaq">FAQ (선택)</label>
+            <textarea id="postFaq" rows="4" placeholder="Q: 질문&#10;A: 답변&#10;&#10;Q: 질문2&#10;A: 답변2"></textarea>
+            <p class="hint">"Q: 질문" 다음 줄에 "A: 답변" 형식으로 작성하면 FAQ 항목으로 인식됩니다.</p>
+          </div>
+          <div class="form-group full">
+            <label for="postRelated">관련 글 슬러그 (쉼표로 구분)</label>
+            <input type="text" id="postRelated" placeholder="예: banchan-storage, myeolchi-bokkeum">
+          </div>
+          <div class="form-group full checkbox-row">
+            <input type="checkbox" id="postFeatured">
+            <label for="postFeatured" style="margin:0;">추천 글로 표시</label>
+          </div>
+        </div>
+      </div>
+      <div class="admin-panel" id="postPreviewPanel" style="display:none;"></div>
+    </section>
+
+    <!-- 칼럼 목록 -->
+    <section class="admin-view" data-view="columns">
+      <div class="admin-topbar">
+        <h1>칼럼 관리</h1>
+        <button class="btn btn-primary" data-route="columns/new">+ 새 칼럼 작성</button>
+      </div>
+      <div class="admin-panel">
+        <table class="admin-table" id="columnsTable">
+          <thead><tr><th>제목</th><th>글쓴이</th><th>상태</th><th>수정일</th><th>관리</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 칼럼 작성/수정 폼 -->
+    <section class="admin-view" data-view="column-edit">
+      <div class="admin-topbar">
+        <h1 id="columnEditTitle">새 칼럼 작성</h1>
+        <div>
+          <button class="btn btn-outline" id="columnPreviewBtn" type="button">미리보기</button>
+          <button class="btn btn-primary" id="columnSaveBtn" type="button">저장</button>
+        </div>
+      </div>
+      <div class="admin-panel">
+        <p class="badge badge-column" style="margin-bottom:14px;">칼럼 · 운영자 관점 글</p>
+        <div class="admin-form-grid">
+          <div class="form-group">
+            <label for="columnTitle">제목</label>
+            <input type="text" id="columnTitle">
+          </div>
+          <div class="form-group">
+            <label for="columnSlug">슬러그 (URL)</label>
+            <input type="text" id="columnSlug">
+          </div>
+          <div class="form-group full">
+            <label for="columnSummary">요약</label>
+            <textarea id="columnSummary" rows="2"></textarea>
+          </div>
+          <div class="form-group">
+            <label>글쓴이</label>
+            <input type="text" id="columnAuthor" value="한끼연구원" disabled>
+          </div>
+          <div class="form-group">
+            <label for="columnStatus">발행 상태</label>
+            <select id="columnStatus">
+              <option value="draft">초안</option>
+              <option value="published">발행</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="columnPublishedAt">작성일</label>
+            <input type="date" id="columnPublishedAt">
+          </div>
+          <div class="form-group">
+            <label for="columnUpdatedAt">수정일</label>
+            <input type="date" id="columnUpdatedAt">
+          </div>
+          <div class="form-group full">
+            <label for="columnBody">본문 (칼럼 메모·관점)</label>
+            <textarea id="columnBody" rows="8" placeholder="운영자의 관찰과 생각을 자유롭게 작성하세요. (실제 배포 페이지는 columns/<슬러그>/index.html 파일을 직접 수정해야 합니다)"></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="admin-panel" id="columnPreviewPanel" style="display:none;"></div>
+    </section>
+
+    <!-- 카테고리 -->
+    <section class="admin-view" data-view="categories">
+      <div class="admin-topbar"><h1>카테고리</h1></div>
+      <div class="admin-panel" id="categoriesPanel"></div>
+    </section>
+
+    <!-- 사이트 설정 -->
+    <section class="admin-view" data-view="settings">
+      <div class="admin-topbar">
+        <h1>사이트 설정</h1>
+        <button class="btn btn-primary" id="settingsSaveBtn" type="button">설정 저장</button>
+      </div>
+      <div class="admin-panel">
+        <div class="admin-form-grid">
+          <div class="form-group">
+            <label for="setSiteName">사이트명</label>
+            <input type="text" id="setSiteName">
+          </div>
+          <div class="form-group">
+            <label for="setTagline">한줄 소개</label>
+            <input type="text" id="setTagline">
+          </div>
+          <div class="form-group">
+            <label for="setOwnerName">운영자명</label>
+            <input type="text" id="setOwnerName">
+          </div>
+          <div class="form-group">
+            <label for="setOwnerBio">운영자 소개 문구</label>
+            <input type="text" id="setOwnerBio">
+          </div>
+          <div class="form-group">
+            <label for="setEmail">연락 이메일</label>
+            <input type="email" id="setEmail">
+          </div>
+          <div class="form-group">
+            <label for="setDomain">기본 도메인</label>
+            <input type="text" id="setDomain">
+          </div>
+          <div class="form-group">
+            <label for="setMainColor">메인 컬러</label>
+            <input type="color" id="setMainColor">
+          </div>
+          <div class="form-group">
+            <label for="setSubColor">서브 컬러</label>
+            <input type="color" id="setSubColor">
+          </div>
+        </div>
+        <p class="hint">이 화면에서 저장한 값은 localStorage 데모 데이터에만 반영됩니다. 실제 사이트 전체에 반영하려면 <code>data/site.config.js</code> 파일과 <code>assets/css/style.css</code>의 색상 변수를 직접 수정해야 합니다.</p>
+      </div>
+
+      <div class="admin-panel">
+        <h2>데이터 관리</h2>
+        <p class="hint" style="margin-top:0;">현재 관리자 데모 데이터를 JSON 파일로 내려받거나, 이전에 내려받은 JSON 파일을 불러올 수 있습니다.</p>
+        <div class="admin-toolbar">
+          <button class="btn btn-outline" id="exportBtn" type="button">JSON으로 내보내기</button>
+          <button class="btn btn-outline" id="importBtn" type="button">JSON 불러오기</button>
+          <button class="btn btn-danger" id="resetBtn" type="button">기본 데이터로 초기화</button>
+          <input type="file" id="importFile" class="admin-file-input" accept="application/json">
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+<script src="/data/site.config.js"></script>
+<script src="/data/categories.js"></script>
+<script src="/data/posts.js"></script>
+<script src="/data/columns.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/auth.js"></script>
+<script src="/assets/js/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>사이트맵 | 집밥연구소</title>
+<meta name="description" content="집밥연구소의 전체 페이지 구조를 한눈에 볼 수 있는 사이트맵입니다.">
+<link rel="canonical" href="https://www.zipbabstudio.com/sitemap/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="사이트맵 | 집밥연구소">
+<meta property="og:description" content="집밥연구소 전체 페이지 구조 안내">
+<meta property="og:url" content="https://www.zipbabstudio.com/sitemap/">
+<meta property="og:site_name" content="집밥연구소">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="사이트맵 | 집밥연구소">
+<link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg">
+<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+<a href="#main" class="skip-link">본문으로 바로가기</a>
+<header class="site-header" id="site-header"></header>
+<nav class="breadcrumb" aria-label="브레드크럼">
+  <ol>
+    <li><a href="/">홈</a></li>
+    <li aria-current="page">사이트맵</li>
+  </ol>
+</nav>
+
+<main id="main">
+  <section class="section" style="padding-top:32px;">
+    <div class="section-body" style="max-width:900px;">
+      <h1>사이트맵</h1>
+      <p>집밥연구소의 전체 페이지 구조입니다. 원하는 콘텐츠를 빠르게 찾는 데 참고해 주세요.</p>
+
+      <h2>주요 페이지</h2>
+      <ul>
+        <li><a href="/">홈</a></li>
+        <li><a href="/about/">사이트 소개</a></li>
+        <li><a href="/author/">운영자 소개 · 칼럼 허브</a></li>
+        <li><a href="/contact/">문의하기</a></li>
+        <li><a href="/categories/">카테고리 목록</a></li>
+        <li><a href="/columns/">칼럼 목록</a></li>
+      </ul>
+
+      <h2>카테고리</h2>
+      <ul>
+        <li><a href="/categories/banchan/">밑반찬·저장음식</a></li>
+        <li><a href="/categories/one-dish/">한그릇 요리·집밥 메뉴</a></li>
+        <li><a href="/categories/beginner/">자취요리·초보 입문</a></li>
+        <li><a href="/categories/kitchen-tools/">요리 도구·주방 관리</a></li>
+        <li><a href="/categories/ingredients/">식재료 활용·보관법</a></li>
+      </ul>
+
+      <h2>글</h2>
+      <div id="sitemapPostList"></div>
+
+      <h2>칼럼</h2>
+      <div id="sitemapColumnList"></div>
+
+      <h2>정책 및 신뢰 페이지</h2>
+      <ul>
+        <li><a href="/privacy/">개인정보처리방침</a></li>
+        <li><a href="/terms/">이용약관</a></li>
+        <li><a href="/disclaimer/">면책고지</a></li>
+      </ul>
+
+      <h2>관리자</h2>
+      <ul>
+        <li><a href="/admin/">관리자 모드 (CMS-lite 데모)</a></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer" id="site-footer"></footer>
+
+<script src="/data/site.config.js"></script>
+<script src="/data/categories.js"></script>
+<script src="/data/posts.js"></script>
+<script src="/data/columns.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/auth.js"></script>
+<script>
+  (function () {
+    var byCat = {};
+    (window.CATEGORIES || []).forEach(function (c) { byCat[c.slug] = []; });
+    (window.POSTS || []).forEach(function (p) {
+      if (!byCat[p.category]) byCat[p.category] = [];
+      byCat[p.category].push(p);
+    });
+    var postHtml = "";
+    (window.CATEGORIES || []).forEach(function (c) {
+      postHtml += "<h3>" + c.name + "</h3><ul>";
+      (byCat[c.slug] || []).forEach(function (p) {
+        postHtml += '<li><a href="/posts/' + p.slug + '/">' + p.title + "</a></li>";
+      });
+      postHtml += "</ul>";
+    });
+    document.getElementById("sitemapPostList").innerHTML = postHtml;
+
+    var colHtml = "<ul>";
+    (window.COLUMNS || []).forEach(function (c) {
+      colHtml += '<li><a href="/columns/' + c.slug + '/">' + c.title + "</a></li>";
+    });
+    colHtml += "</ul>";
+    document.getElementById("sitemapColumnList").innerHTML = colHtml;
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>운영자 소개 · 칼럼 허브 | 집밥연구소</title>
+<meta name="description" content="집밥연구소 운영자 한끼연구원을 소개하고, 운영자가 작성한 칼럼 목록을 모아 보여주는 페이지입니다.">
+<link rel="canonical" href="https://www.zipbabstudio.com/author/">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="운영자 소개 · 칼럼 허브 | 집밥연구소">
+<meta property="og:description" content="집밥연구소 운영자 한끼연구원을 소개하고 칼럼 목록을 모아 보여줍니다.">
+<meta property="og:url" content="https://www.zipbabstudio.com/author/">
+<meta property="og:site_name" content="집밥연구소">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="운영자 소개 · 칼럼 허브 | 집밥연구소">
+<meta name="twitter:description" content="집밥연구소 운영자 한끼연구원 소개와 칼럼 목록">
+<link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg">
+<link rel="stylesheet" href="/assets/css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://www.zipbabstudio.com/" },
+    { "@type": "ListItem", "position": 2, "name": "운영자 소개", "item": "https://www.zipbabstudio.com/author/" }
+  ]
+}
+</script>
+</head>
+<body>
+<a href="#main" class="skip-link">본문으로 바로가기</a>
+<header class="site-header" id="site-header"></header>
+<nav class="breadcrumb" aria-label="브레드크럼">
+  <ol>
+    <li><a href="/">홈</a></li>
+    <li aria-current="page">운영자 소개</li>
+  </ol>
+</nav>
+
+<main id="main">
+  <div class="hero" style="padding-top:32px;padding-bottom:32px;">
+    <div class="hero-inner" style="grid-template-columns:1fr;">
+      <div>
+        <span class="hero-eyebrow">운영자 소개</span>
+        <h1>한끼연구원</h1>
+        <p class="hero-lead">집밥을 사랑하는 요리 정보 큐레이터입니다. 집밥연구소의 기획, 편집, 콘텐츠 점검을 담당하고 있습니다.</p>
+      </div>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="section-body" style="max-width:760px;">
+      <h2>소개</h2>
+      <p>여러 해 동안 집밥 레시피와 요리 정보를 조사하고 정리해 온 콘텐츠 큐레이터입니다. 화려한 레시피보다 "초보자가 실제로 따라 할 수 있는 정보"를 우선순위에 두고 집밥연구소를 운영하고 있습니다.</p>
+      <p>요리 실력을 뽐내는 것이 아니라, 정보를 알기 쉽게 정리해서 전달하는 역할이라고 생각하며 콘텐츠를 만들고 있습니다.</p>
+
+      <h2>편집 원칙</h2>
+      <ul class="principle-list" style="margin-top:16px;">
+        <li><span class="principle-num">1</span><span>과장되거나 검증되지 않은 조리법은 다루지 않습니다.</span></li>
+        <li><span class="principle-num">2</span><span>초보자 기준으로 이해할 수 있도록 쉬운 표현을 우선합니다.</span></li>
+        <li><span class="principle-num">3</span><span>정보는 발행 이후에도 주기적으로 점검하고 필요하면 보완합니다.</span></li>
+        <li><span class="principle-num">4</span><span>실제 도움이 되는 정보인지를 기준으로 주제를 선정합니다.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="section-head">
+      <div>
+        <h2>칼럼</h2>
+        <p id="authorIntroText">운영자가 정리한 칼럼을 읽어보세요. 레시피 정보와는 조금 다른, 운영자의 관점과 관찰이 담긴 글입니다.</p>
+      </div>
+      <div id="authorAdminActions" style="display:none;">
+        <a href="/admin/#columns/new" class="btn btn-primary">새 칼럼 작성하기</a>
+      </div>
+    </div>
+    <div class="section-body">
+      <div class="post-grid" id="authorColumnList"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-body" style="max-width:760px;">
+      <h2>문의</h2>
+      <p>운영자에게 직접 전달하고 싶은 의견이나 제안이 있다면 <a href="/contact/">문의 페이지</a>를 통해 이메일로 연락해 주세요.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer" id="site-footer"></footer>
+
+<script src="/data/site.config.js"></script>
+<script src="/data/categories.js"></script>
+<script src="/data/posts.js"></script>
+<script src="/data/columns.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/auth.js"></script>
+<script>
+  (function () {
+    var sorted = (window.COLUMNS || []).slice().sort(function (a, b) {
+      return new Date(b.updatedAt) - new Date(a.updatedAt);
+    });
+    window.HCL.renderColumnCards("authorColumnList", sorted);
+
+    if (window.HCL_AUTH && window.HCL_AUTH.isAdminLoggedIn()) {
+      document.getElementById("authorIntroText").textContent =
+        "관리자 모드가 활성화되어 있습니다. 새 칼럼을 작성하거나 기존 칼럼을 검토해 보세요.";
+      document.getElementById("authorAdminActions").style.display = "block";
+    }
+  })();
+</script>
+</body>
+</html>
