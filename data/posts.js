@@ -340,5 +340,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["measuring-habit", "starter-tools"]
+  },
+  {
+    slug: "wooden-cutting-board-care",
+    title: "나무도마 갈라지는 이유와 관리법",
+    summary:
+      "나무도마가 마르면서 갈라지는 건 대부분 건조 방식과 오일링 관리 주기 때문입니다. 갈라짐을 줄이는 기본 관리법을 정리했습니다.",
+    category: "kitchen-tools",
+    publishedAt: "2026-07-05",
+    updatedAt: "2026-07-05",
+    featured: false,
+    hasFaq: true,
+    related: ["cutting-board-hygiene", "pan-coating-care"]
   }
 ];
