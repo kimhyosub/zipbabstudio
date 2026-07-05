@@ -328,5 +328,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["bokkeumbap-rice", "heat-control"]
+  },
+  {
+    slug: "measuring-spoon-rice-spoon",
+    title: "계량스푼과 밥숟가락, 헷갈리면 간이 달라지는 이유",
+    summary:
+      "레시피의 '1큰술'을 밥숟가락으로 재는 건 자취요리 초반에 흔한 계량 실수입니다. 계량스푼과 밥숟가락의 용량 차이와 대체 기준을 정리했습니다.",
+    category: "beginner",
+    publishedAt: "2026-07-05",
+    updatedAt: "2026-07-05",
+    featured: false,
+    hasFaq: true,
+    related: ["measuring-habit", "starter-tools"]
   }
 ];
