@@ -316,5 +316,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["heat-control", "banchan-storage"]
+  },
+  {
+    slug: "egg-fried-rice-coating",
+    title: "계란볶음밥 팍팍해지지 않게 만드는 법",
+    summary:
+      "계란볶음밥이 자꾸 팍팍하고 밥알이 따로 노는 건 계란 코팅 순서와 기름 온도 때문인 경우가 많습니다. 고슬고슬하면서도 촉촉한 계란볶음밥을 만드는 기본 순서를 정리했습니다.",
+    category: "one-dish",
+    publishedAt: "2026-07-05",
+    updatedAt: "2026-07-05",
+    featured: false,
+    hasFaq: true,
+    related: ["bokkeumbap-rice", "heat-control"]
   }
 ];
