@@ -304,5 +304,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["expiry-vs-best-before", "vegetable-storage"]
+  },
+  {
+    slug: "jorim-heat-control",
+    title: "콩자반·조림류가 자꾸 타는 이유와 불 조절법",
+    summary:
+      "콩자반이나 조림 요리가 자꾸 바닥에 눌어붙거나 타는 건 대부분 불 세기와 뚜껑 사용 방식 때문입니다. 초보자가 놓치기 쉬운 불 조절 기본 원칙을 정리했습니다.",
+    category: "banchan",
+    publishedAt: "2026-07-05",
+    updatedAt: "2026-07-05",
+    featured: false,
+    hasFaq: true,
+    related: ["heat-control", "banchan-storage"]
   }
 ];
