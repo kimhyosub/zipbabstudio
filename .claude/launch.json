@@ -6,6 +6,12 @@
       "runtimeExecutable": "python",
       "runtimeArgs": ["-m", "http.server", "5500"],
       "port": 5500
+    },
+    {
+      "name": "smartmoney-guide",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "5501", "-d", "D:\\smartmoney-guide"],
+      "port": 5501
     }
   ]
 }
