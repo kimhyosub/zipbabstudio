@@ -59,6 +59,13 @@
       "type": "column",
       "title": "자취요리, 결국 습관의 문제라는 생각",
       "slug": "habit-over-tools"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "post",
+      "category": "banchan",
+      "title": "젓갈로 만드는 밑반찬, 짠맛 조절하는 기준",
+      "slug": "jeotgal-salt-ratio"
     }
   ]
 }

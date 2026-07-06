@@ -5,8 +5,16 @@
     <link>https://www.zipbabstudio.com/</link>
     <description>집에서 만드는 든든한 한 끼, 집밥연구소 - 요리 초보자와 집밥을 즐기는 사람들을 위한 요리 정보 사이트</description>
     <language>ko-KR</language>
-    <lastBuildDate>Mon, 06 Jul 2026 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 00:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.zipbabstudio.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>젓갈로 만드는 밑반찬, 짠맛 조절하는 기준</title>
+      <link>https://www.zipbabstudio.com/posts/jeotgal-salt-ratio/</link>
+      <guid isPermaLink="true">https://www.zipbabstudio.com/posts/jeotgal-salt-ratio/</guid>
+      <description>젓갈로 무치거나 볶는 밑반찬은 젓갈 자체의 염도가 제품마다 크게 달라 같은 양을 넣어도 짠맛 차이가 큽니다. 젓갈 종류별 염도 차이를 확인하고 희석하는 기준을 정리했습니다.</description>
+      <category>밑반찬·저장음식</category>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>자취요리, 결국 습관의 문제라는 생각</title>
       <link>https://www.zipbabstudio.com/columns/habit-over-tools/</link>
@@ -238,22 +246,6 @@
       <description>밑반찬은 수분 함량과 간의 세기에 따라 보관 기간이 크게 달라집니다. 반찬 종류별 대략적인 보관 기준을 정리했습니다.</description>
       <category>밑반찬·저장음식</category>
       <pubDate>Sun, 10 May 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>레시피마다 계량·설명이 다르게 느껴지는 이유</title>
-      <link>https://www.zipbabstudio.com/columns/recipe-info-inconsistency/</link>
-      <guid isPermaLink="true">https://www.zipbabstudio.com/columns/recipe-info-inconsistency/</guid>
-      <description>같은 요리인데 레시피마다 설탕 한 스푼, 물 한 컵의 기준이 다르게 느껴진 적이 있을 겁니다. 콘텐츠를 정리하며 느낀 원인을 정리했습니다.</description>
-      <category>칼럼</category>
-      <pubDate>Fri, 08 May 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>계량 없이 요리하다 실수하는 이유와 계량 습관 만들기</title>
-      <link>https://www.zipbabstudio.com/posts/measuring-habit/</link>
-      <guid isPermaLink="true">https://www.zipbabstudio.com/posts/measuring-habit/</guid>
-      <description>레시피의 &apos;적당히&apos;가 어렵게 느껴지는 이유와, 계량 도구 없이도 기준을 잡아가는 방법을 정리했습니다.</description>
-      <category>자취요리·초보 입문</category>
-      <pubDate>Wed, 06 May 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>

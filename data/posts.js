@@ -376,5 +376,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["vegetable-storage", "container-guide"]
+  },
+  {
+    slug: "jeotgal-salt-ratio",
+    title: "젓갈로 만드는 밑반찬, 짠맛 조절하는 기준",
+    summary:
+      "젓갈로 무치거나 볶는 밑반찬은 젓갈 자체의 염도가 제품마다 크게 달라 같은 양을 넣어도 짠맛 차이가 큽니다. 젓갈 종류별 염도 차이를 확인하고 희석하는 기준을 정리했습니다.",
+    category: "banchan",
+    publishedAt: "2026-07-07",
+    updatedAt: "2026-07-07",
+    featured: false,
+    hasFaq: true,
+    related: ["jangajji-brine-ratio", "banchan-storage"]
   }
 ];
