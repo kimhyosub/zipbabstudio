@@ -59,7 +59,7 @@
     { "category": "kitchen-tools", "title": "고무장갑·수세미 위생 관리 주기", "angle": "교체 시점과 세척 습관", "status": "pending" },
 
     { "category": "ingredients", "title": "두부 보관과 남았을 때 활용법", "angle": "개봉 후 보관수 교체 주기", "status": "published", "slug": "tofu-storage", "publishedAt": "2026-07-06" },
-    { "category": "ingredients", "title": "버섯류 보관법, 물러지지 않게 하는 법", "angle": "습기 관리와 보관 용기", "status": "pending" },
+    { "category": "ingredients", "title": "버섯류 보관법, 물러지지 않게 하는 법", "angle": "습기 관리와 보관 용기", "status": "published", "slug": "mushroom-storage", "publishedAt": "2026-07-06" },
     { "category": "ingredients", "title": "다진 고기 소분·냉동 보관하는 법", "angle": "소분 단위와 밀착 포장", "status": "pending" },
     { "category": "ingredients", "title": "우유·유제품 보관 온도와 소비기한", "angle": "개봉 전후 보관 기준 차이", "status": "pending" },
     { "category": "ingredients", "title": "콩나물 보관법, 무르지 않게 하는 법", "angle": "물에 담가 보관하는 법과 교체 주기", "status": "pending" },

@@ -364,5 +364,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["vegetable-storage", "meat-storage"]
+  },
+  {
+    slug: "mushroom-storage",
+    title: "버섯류 보관법, 물러지지 않게 하는 법",
+    summary:
+      "버섯은 습기에 특히 약해 보관 방식을 잘못 잡으면 금방 물러지고 미끈거립니다. 습기 관리와 보관 용기 선택 기준을 정리했습니다.",
+    category: "ingredients",
+    publishedAt: "2026-07-06",
+    updatedAt: "2026-07-06",
+    featured: false,
+    hasFaq: true,
+    related: ["vegetable-storage", "container-guide"]
   }
 ];

@@ -8,6 +8,14 @@
     <lastBuildDate>Mon, 06 Jul 2026 00:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.zipbabstudio.com/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>버섯류 보관법, 물러지지 않게 하는 법</title>
+      <link>https://www.zipbabstudio.com/posts/mushroom-storage/</link>
+      <guid isPermaLink="true">https://www.zipbabstudio.com/posts/mushroom-storage/</guid>
+      <description>버섯은 습기에 특히 약해 보관 방식을 잘못 잡으면 금방 물러지고 미끈거립니다. 습기 관리와 보관 용기 선택 기준을 정리했습니다.</description>
+      <category>식재료 활용·보관법</category>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>두부 보관과 남았을 때 활용법</title>
       <link>https://www.zipbabstudio.com/posts/tofu-storage/</link>
       <guid isPermaLink="true">https://www.zipbabstudio.com/posts/tofu-storage/</guid>
@@ -238,14 +246,6 @@
       <description>레시피의 &apos;적당히&apos;가 어렵게 느껴지는 이유와, 계량 도구 없이도 기준을 잡아가는 방법을 정리했습니다.</description>
       <category>자취요리·초보 입문</category>
       <pubDate>Wed, 06 May 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>나물무침, 미리 무쳐두면 안 되는 이유</title>
-      <link>https://www.zipbabstudio.com/posts/muchim-timing/</link>
-      <guid isPermaLink="true">https://www.zipbabstudio.com/posts/muchim-timing/</guid>
-      <description>나물무침을 미리 무쳐두면 시간이 지날수록 물이 생기고 간이 변합니다. 무치는 타이밍을 정리했습니다.</description>
-      <category>밑반찬·저장음식</category>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
