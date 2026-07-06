@@ -352,5 +352,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["cutting-board-hygiene", "pan-coating-care"]
+  },
+  {
+    slug: "tofu-storage",
+    title: "두부 보관과 남았을 때 활용법",
+    summary:
+      "두부를 다 먹지 못하고 남았을 때 어떻게 보관해야 오래 신선하게 쓸 수 있는지 헷갈리는 경우가 많습니다. 보관수 교체 주기와 활용법을 정리했습니다.",
+    category: "ingredients",
+    publishedAt: "2026-07-06",
+    updatedAt: "2026-07-06",
+    featured: false,
+    hasFaq: true,
+    related: ["vegetable-storage", "meat-storage"]
   }
 ];

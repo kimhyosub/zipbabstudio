@@ -39,6 +39,13 @@
       "type": "column",
       "title": "계량보다 재료 상태가 더 중요하다고 느낀 순간",
       "slug": "ingredient-state-over-measuring"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "post",
+      "category": "ingredients",
+      "title": "두부 보관과 남았을 때 활용법",
+      "slug": "tofu-storage"
     }
   ]
 }
