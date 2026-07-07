@@ -388,5 +388,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["jangajji-brine-ratio", "banchan-storage"]
+  },
+  {
+    slug: "janchi-guksu-storage",
+    title: "잔치국수 붇지 않게 삶고 보관하는 법",
+    summary:
+      "잔치국수는 삶은 뒤 시간이 지나면 면이 붇고 국물과 엉겨 붙기 쉽습니다. 면 삶는 시간과 헹굼, 국물을 따로 보관하는 방법을 정리했습니다.",
+    category: "one-dish",
+    publishedAt: "2026-07-07",
+    updatedAt: "2026-07-07",
+    featured: false,
+    hasFaq: true,
+    related: ["basic-broth", "ramen-add-ins-order"]
   }
 ];
