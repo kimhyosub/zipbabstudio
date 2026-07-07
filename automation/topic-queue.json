@@ -76,7 +76,7 @@
     { "title": "계량보다 재료 상태가 더 중요하다고 느낀 순간", "angle": "같은 레시피, 다른 결과의 원인 관찰", "status": "published", "slug": "ingredient-state-over-measuring", "publishedAt": "2026-07-05" },
     { "title": "자취요리, 결국 습관의 문제라는 생각", "angle": "도구·재능보다 반복되는 루틴", "status": "published", "slug": "habit-over-tools", "publishedAt": "2026-07-06" },
     { "title": "밀키트가 늘어나도 기본기가 필요한 이유", "angle": "간편식과 기본 조리 이해의 관계", "status": "published", "slug": "mealkit-basics-still-matter", "publishedAt": "2026-07-07" },
-    { "title": "냉장고 파먹기가 유행하는 이유를 보며 든 생각", "angle": "재료 활용 트렌드 관찰", "status": "pending" },
+    { "title": "냉장고 파먹기가 유행하는 이유를 보며 든 생각", "angle": "재료 활용 트렌드 관찰", "status": "published", "slug": "fridge-cleanout-trend", "publishedAt": "2026-07-07" },
     { "title": "초보자 질문에서 발견한 공통된 두려움", "angle": "실패에 대한 두려움과 정보 요청 패턴", "status": "pending" },
     { "title": "'적당히'라는 말이 요리를 더 어렵게 만드는 이유", "angle": "모호한 표현과 기준의 부재", "status": "pending" },
     { "title": "실패한 요리에서 배우는 것들", "angle": "실패 경험을 정보로 전환하는 관점", "status": "pending" },
