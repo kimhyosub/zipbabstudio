@@ -8,6 +8,14 @@
     <lastBuildDate>Tue, 07 Jul 2026 00:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.zipbabstudio.com/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>밀키트가 늘어나도 기본기가 필요한 이유</title>
+      <link>https://www.zipbabstudio.com/columns/mealkit-basics-still-matter/</link>
+      <guid isPermaLink="true">https://www.zipbabstudio.com/columns/mealkit-basics-still-matter/</guid>
+      <description>밀키트와 간편식이 늘어나면서 요리가 쉬워졌다고들 하지만, 조리 원리를 모르면 포장지 설명과 조금만 달라져도 결과가 흔들립니다. 콘텐츠를 정리하며 느낀 간편식과 기본기 사이의 관계를 정리했습니다.</description>
+      <category>칼럼</category>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>잔치국수 붇지 않게 삶고 보관하는 법</title>
       <link>https://www.zipbabstudio.com/posts/janchi-guksu-storage/</link>
       <guid isPermaLink="true">https://www.zipbabstudio.com/posts/janchi-guksu-storage/</guid>
@@ -238,14 +246,6 @@
       <description>같은 재료를 넣어도 순서에 따라 라면 맛이 달라집니다. 부재료를 넣는 기본 순서를 정리했습니다.</description>
       <category>한그릇 요리·집밥 메뉴</category>
       <pubDate>Wed, 20 May 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>불 조절이 어려운 초보를 위한 화력별 요리 가이드</title>
-      <link>https://www.zipbabstudio.com/posts/heat-control/</link>
-      <guid isPermaLink="true">https://www.zipbabstudio.com/posts/heat-control/</guid>
-      <description>레시피의 &apos;중불&apos;, &apos;센 불&apos; 표현이 헷갈리는 이유와, 가정용 화구 기준으로 화력을 가늠하는 방법을 정리했습니다.</description>
-      <category>자취요리·초보 입문</category>
-      <pubDate>Fri, 15 May 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
