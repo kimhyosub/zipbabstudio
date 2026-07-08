@@ -412,5 +412,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["starter-tools", "fridge-cleanout"]
+  },
+  {
+    slug: "stainless-pan-preheat",
+    title: "스테인리스 팬 눌어붙지 않게 쓰는 법",
+    summary:
+      "스테인리스 팬에 재료가 자꾸 눌어붙는다면 팬 자체보다 예열 판단과 기름 두르는 타이밍을 먼저 점검해야 합니다. 기본 사용법을 정리했습니다.",
+    category: "kitchen-tools",
+    publishedAt: "2026-07-09",
+    updatedAt: "2026-07-09",
+    featured: false,
+    hasFaq: true,
+    related: ["pan-coating-care", "heat-control"]
   }
 ];

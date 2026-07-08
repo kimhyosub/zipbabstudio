@@ -98,6 +98,13 @@
       "type": "column",
       "title": "실패한 요리에서 배우는 것들",
       "slug": "learning-from-cooking-failures"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "post",
+      "category": "kitchen-tools",
+      "title": "스테인리스 팬 눌어붙지 않게 쓰는 법",
+      "slug": "stainless-pan-preheat"
     }
   ]
 }
