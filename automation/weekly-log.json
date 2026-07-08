@@ -92,6 +92,12 @@
       "category": "beginner",
       "title": "처음 장 볼 때 냉장고 채우는 우선순위",
       "slug": "fridge-priority-shopping"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "column",
+      "title": "실패한 요리에서 배우는 것들",
+      "slug": "learning-from-cooking-failures"
     }
   ]
 }

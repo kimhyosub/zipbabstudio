@@ -8,6 +8,14 @@
     <lastBuildDate>Wed, 08 Jul 2026 00:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.zipbabstudio.com/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>실패한 요리에서 배우는 것들</title>
+      <link>https://www.zipbabstudio.com/columns/learning-from-cooking-failures/</link>
+      <guid isPermaLink="true">https://www.zipbabstudio.com/columns/learning-from-cooking-failures/</guid>
+      <description>요리가 뜻대로 되지 않았을 때 그 결과를 그냥 넘기기보다 원인을 짚어보는 편이 다음 요리에 더 도움이 됩니다. 콘텐츠를 정리하며 느낀, 실패를 정보로 바꾸는 관점을 정리했습니다.</description>
+      <category>칼럼</category>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>처음 장 볼 때 냉장고 채우는 우선순위</title>
       <link>https://www.zipbabstudio.com/posts/fridge-priority-shopping/</link>
       <guid isPermaLink="true">https://www.zipbabstudio.com/posts/fridge-priority-shopping/</guid>
@@ -238,14 +246,6 @@
       <description>도마 하나로 채소와 육류를 함께 손질하면 교차 오염 위험이 커집니다. 가정에서 실천 가능한 기본 원칙을 정리했습니다.</description>
       <category>요리 도구·주방 관리</category>
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>자취생도 실패 없는 김치볶음밥, 재료 손질부터 순서까지</title>
-      <link>https://www.zipbabstudio.com/posts/kimchi-bokkeumbap/</link>
-      <guid isPermaLink="true">https://www.zipbabstudio.com/posts/kimchi-bokkeumbap/</guid>
-      <description>김치볶음밥이 애매한 맛이 되는 건 대개 김치 상태와 넣는 순서 때문입니다. 기본 순서를 단계별로 정리했습니다.</description>
-      <category>한그릇 요리·집밥 메뉴</category>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
