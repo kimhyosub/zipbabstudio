@@ -400,5 +400,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["basic-broth", "ramen-add-ins-order"]
+  },
+  {
+    slug: "fridge-priority-shopping",
+    title: "처음 장 볼 때 냉장고 채우는 우선순위",
+    summary:
+      "자취를 처음 시작하면 장바구니에 뭘 담아야 할지부터 막막합니다. 자주 쓰는 재료부터 채우는 기준으로 첫 장보기 우선순위를 정리했습니다.",
+    category: "beginner",
+    publishedAt: "2026-07-08",
+    updatedAt: "2026-07-08",
+    featured: false,
+    hasFaq: true,
+    related: ["starter-tools", "fridge-cleanout"]
   }
 ];

@@ -5,8 +5,16 @@
     <link>https://www.zipbabstudio.com/</link>
     <description>집에서 만드는 든든한 한 끼, 집밥연구소 - 요리 초보자와 집밥을 즐기는 사람들을 위한 요리 정보 사이트</description>
     <language>ko-KR</language>
-    <lastBuildDate>Tue, 07 Jul 2026 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 00:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.zipbabstudio.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>처음 장 볼 때 냉장고 채우는 우선순위</title>
+      <link>https://www.zipbabstudio.com/posts/fridge-priority-shopping/</link>
+      <guid isPermaLink="true">https://www.zipbabstudio.com/posts/fridge-priority-shopping/</guid>
+      <description>자취를 처음 시작하면 장바구니에 뭘 담아야 할지부터 막막합니다. 자주 쓰는 재료부터 채우는 기준으로 첫 장보기 우선순위를 정리했습니다.</description>
+      <category>자취요리·초보 입문</category>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>냉장고 파먹기가 유행하는 이유를 보며 든 생각</title>
       <link>https://www.zipbabstudio.com/columns/fridge-cleanout-trend/</link>
@@ -238,14 +246,6 @@
       <description>김치볶음밥이 애매한 맛이 되는 건 대개 김치 상태와 넣는 순서 때문입니다. 기본 순서를 단계별로 정리했습니다.</description>
       <category>한그릇 요리·집밥 메뉴</category>
       <pubDate>Tue, 02 Jun 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>칼 관리 기본, 무뎌지는 이유와 초보자의 관리 루틴</title>
-      <link>https://www.zipbabstudio.com/posts/knife-care/</link>
-      <guid isPermaLink="true">https://www.zipbabstudio.com/posts/knife-care/</guid>
-      <description>칼이 금방 무뎌지는 이유는 대부분 보관 방식과 사용 습관에 있습니다. 초보자가 부담 없이 실천할 수 있는 관리 루틴을 정리했습니다.</description>
-      <category>요리 도구·주방 관리</category>
-      <pubDate>Fri, 29 May 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
