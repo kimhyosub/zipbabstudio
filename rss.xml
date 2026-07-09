@@ -5,8 +5,16 @@
     <link>https://www.zipbabstudio.com/</link>
     <description>집에서 만드는 든든한 한 끼, 집밥연구소 - 요리 초보자와 집밥을 즐기는 사람들을 위한 요리 정보 사이트</description>
     <language>ko-KR</language>
-    <lastBuildDate>Thu, 09 Jul 2026 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 00:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.zipbabstudio.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>요즘 1인 가구 요리, 무엇이 달라졌나</title>
+      <link>https://www.zipbabstudio.com/columns/solo-household-cooking-shift/</link>
+      <guid isPermaLink="true">https://www.zipbabstudio.com/columns/solo-household-cooking-shift/</guid>
+      <description>1인 가구를 위한 소포장·간편 조리 상품이 눈에 띄게 늘었습니다. 콘텐츠를 정리하며 지켜본 1인 가구 요리 환경의 변화를 정리했습니다.</description>
+      <category>칼럼</category>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>다진 고기 소분·냉동 보관하는 법</title>
       <link>https://www.zipbabstudio.com/posts/ground-meat-freezing/</link>
@@ -238,14 +246,6 @@
       <description>밀폐용기는 재질과 용도에 따라 관리 방식이 다릅니다. 고르는 기준과 세척·보관 요령을 정리했습니다.</description>
       <category>요리 도구·주방 관리</category>
       <pubDate>Mon, 15 Jun 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>덮밥 메뉴 균형 잡기, 초보자를 위한 기본 비율</title>
-      <link>https://www.zipbabstudio.com/posts/one-bowl-balance/</link>
-      <guid isPermaLink="true">https://www.zipbabstudio.com/posts/one-bowl-balance/</guid>
-      <description>덮밥은 밥과 소스 비율, 재료 구성에 따라 완성도가 크게 달라집니다. 초보자가 참고할 기본 균형을 정리했습니다.</description>
-      <category>한그릇 요리·집밥 메뉴</category>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
