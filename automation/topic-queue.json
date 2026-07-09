@@ -2,13 +2,13 @@
   "_readme": "자동 발행 파이프라인용 사전 검증 주제 큐입니다. 매 예약 실행(06:30/12:30 글, 18:30 칼럼)마다 status가 'pending'인 항목을 카테고리 로테이션 순서대로 하나씩 꺼내 작성하고, 작성 완료 후 status를 'published'로 바꾸고 slug/publishedAt을 채워 넣습니다. 새 항목을 큐에 추가하기 전에는 반드시 data/posts.js, data/columns.js 및 이 파일의 기존 title과 중복/유사 여부를 확인해야 합니다.",
   "rotation": {
     "categoryOrder": ["banchan", "one-dish", "beginner", "kitchen-tools", "ingredients"],
-    "lastCategoryIndex": 4,
+    "lastCategoryIndex": 0,
     "note": "postQueue에서 다음 글을 고를 때 categoryOrder를 순서대로 순환하며, lastCategoryIndex를 사용할 때마다 갱신합니다."
   },
   "postQueue": [
     { "category": "banchan", "title": "콩자반·조림류가 자꾸 타는 이유와 불 조절법", "angle": "조림 타는 문제, 불 세기와 뚜껑 활용", "status": "published", "slug": "jorim-heat-control", "publishedAt": "2026-07-05" },
     { "category": "banchan", "title": "젓갈로 만드는 밑반찬, 짠맛 조절하는 기준", "angle": "젓갈 염도 차이와 희석 비율", "status": "published", "slug": "jeotgal-salt-ratio", "publishedAt": "2026-07-07" },
-    { "category": "banchan", "title": "나물 삶을 때 색이 죽는 이유", "angle": "데치는 온도·시간과 찬물 헹굼", "status": "pending" },
+    { "category": "banchan", "title": "나물 삶을 때 색이 죽는 이유", "angle": "데치는 온도·시간과 찬물 헹굼", "status": "published", "slug": "namul-blanching-color", "publishedAt": "2026-07-10" },
     { "category": "banchan", "title": "무말랭이·건나물 불리는 시간과 요령", "angle": "건재료 수분 복원 시간 기준", "status": "pending" },
     { "category": "banchan", "title": "진미채볶음이 뻣뻣해지는 이유", "angle": "재료 두께와 양념 타이밍", "status": "pending" },
     { "category": "banchan", "title": "어묵볶음 눅눅해지지 않게 보관하는 법", "angle": "수분·기름기 처리와 보관 용기", "status": "pending" },

@@ -436,5 +436,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["meat-storage", "container-guide"]
+  },
+  {
+    slug: "namul-blanching-color",
+    title: "나물 삶을 때 색이 죽는 이유",
+    summary:
+      "시금치나 취나물처럼 데쳐서 무치는 나물은 조리 후 색이 탁해지는 경우가 많습니다. 물 온도와 데치는 시간, 찬물 헹굼 순서를 정리했습니다.",
+    category: "banchan",
+    publishedAt: "2026-07-10",
+    updatedAt: "2026-07-10",
+    featured: false,
+    hasFaq: true,
+    related: ["muchim-timing", "mu-saengchae"]
   }
 ];

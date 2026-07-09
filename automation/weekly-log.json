@@ -118,6 +118,13 @@
       "type": "column",
       "title": "요즘 1인 가구 요리, 무엇이 달라졌나",
       "slug": "solo-household-cooking-shift"
+    },
+    {
+      "date": "2026-07-10",
+      "type": "post",
+      "category": "banchan",
+      "title": "나물 삶을 때 색이 죽는 이유",
+      "slug": "namul-blanching-color"
     }
   ]
 }

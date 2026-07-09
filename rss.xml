@@ -8,6 +8,14 @@
     <lastBuildDate>Fri, 10 Jul 2026 00:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.zipbabstudio.com/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>나물 삶을 때 색이 죽는 이유</title>
+      <link>https://www.zipbabstudio.com/posts/namul-blanching-color/</link>
+      <guid isPermaLink="true">https://www.zipbabstudio.com/posts/namul-blanching-color/</guid>
+      <description>시금치나 취나물처럼 데쳐서 무치는 나물은 조리 후 색이 탁해지는 경우가 많습니다. 물 온도와 데치는 시간, 찬물 헹굼 순서를 정리했습니다.</description>
+      <category>밑반찬·저장음식</category>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>요즘 1인 가구 요리, 무엇이 달라졌나</title>
       <link>https://www.zipbabstudio.com/columns/solo-household-cooking-shift/</link>
       <guid isPermaLink="true">https://www.zipbabstudio.com/columns/solo-household-cooking-shift/</guid>
@@ -238,14 +246,6 @@
       <description>처음부터 도구를 다 갖출 필요는 없습니다. 입문 단계에서 우선순위를 두고 갖추면 좋은 도구를 정리했습니다.</description>
       <category>자취요리·초보 입문</category>
       <pubDate>Thu, 18 Jun 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>밀폐용기 고르는 기준과 세척·보관 요령</title>
-      <link>https://www.zipbabstudio.com/posts/container-guide/</link>
-      <guid isPermaLink="true">https://www.zipbabstudio.com/posts/container-guide/</guid>
-      <description>밀폐용기는 재질과 용도에 따라 관리 방식이 다릅니다. 고르는 기준과 세척·보관 요령을 정리했습니다.</description>
-      <category>요리 도구·주방 관리</category>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
