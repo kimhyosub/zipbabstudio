@@ -424,5 +424,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["pan-coating-care", "heat-control"]
+  },
+  {
+    slug: "ground-meat-freezing",
+    title: "다진 고기 소분·냉동 보관하는 법",
+    summary:
+      "다진 고기를 한 번에 많이 사서 냉동해두면 편리하지만, 소분 방식이 잘못되면 해동할 때 품질이 크게 떨어집니다. 소분 단위와 밀착 포장 기준을 정리했습니다.",
+    category: "ingredients",
+    publishedAt: "2026-07-09",
+    updatedAt: "2026-07-09",
+    featured: false,
+    hasFaq: true,
+    related: ["meat-storage", "container-guide"]
   }
 ];
