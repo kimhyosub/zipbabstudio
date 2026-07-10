@@ -448,5 +448,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["muchim-timing", "mu-saengchae"]
+  },
+  {
+    slug: "bibim-guksu-sauce-ratio",
+    title: "비빔국수 양념장 기본 비율, 맵고 새콤한 맛 잡는 기준",
+    summary:
+      "비빔국수 양념장은 고추장·설탕·식초 비율과 식초를 넣는 시점에 따라 맛이 크게 달라집니다. 기본 비율과 신맛 조절 기준을 정리했습니다.",
+    category: "one-dish",
+    publishedAt: "2026-07-10",
+    updatedAt: "2026-07-10",
+    featured: false,
+    hasFaq: true,
+    related: ["janchi-guksu-storage", "basic-broth"]
   }
 ];
