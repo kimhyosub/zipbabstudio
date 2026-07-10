@@ -8,6 +8,14 @@
     <lastBuildDate>Fri, 10 Jul 2026 00:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.zipbabstudio.com/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>정보를 큐레이션하며 느낀 책임감</title>
+      <link>https://www.zipbabstudio.com/columns/content-curation-responsibility/</link>
+      <guid isPermaLink="true">https://www.zipbabstudio.com/columns/content-curation-responsibility/</guid>
+      <description>레시피 정보를 정리해서 올리는 일에는 생각보다 많은 확인 과정이 필요합니다. 콘텐츠를 검증하는 과정에서 느낀 책임감에 대해 정리했습니다.</description>
+      <category>칼럼</category>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>비빔국수 양념장 기본 비율, 맵고 새콤한 맛 잡는 기준</title>
       <link>https://www.zipbabstudio.com/posts/bibim-guksu-sauce-ratio/</link>
       <guid isPermaLink="true">https://www.zipbabstudio.com/posts/bibim-guksu-sauce-ratio/</guid>
@@ -238,14 +246,6 @@
       <description>행주와 수세미는 주방에서 세균이 가장 빨리 번식하는 도구 중 하나입니다. 관리 습관과 교체 주기를 정리했습니다.</description>
       <category>요리 도구·주방 관리</category>
       <pubDate>Mon, 22 Jun 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>육류 손질 후 보관, 냉동실 활용하는 기본 원칙</title>
-      <link>https://www.zipbabstudio.com/posts/meat-storage/</link>
-      <guid isPermaLink="true">https://www.zipbabstudio.com/posts/meat-storage/</guid>
-      <description>육류는 손질 방식에 따라 냉동 후 품질 차이가 크게 납니다. 초보자가 따라 하기 쉬운 손질·보관 순서를 정리했습니다.</description>
-      <category>식재료 활용·보관법</category>
-      <pubDate>Fri, 19 Jun 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
