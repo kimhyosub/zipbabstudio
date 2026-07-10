@@ -460,5 +460,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["janchi-guksu-storage", "basic-broth"]
+  },
+  {
+    slug: "seasoning-priority-guide",
+    title: "자취생 기본 양념, 뭐부터 사야 할까",
+    summary:
+      "자취를 처음 시작할 때 어떤 양념부터 갖춰야 할지 막막한 분들을 위해, 활용도가 높은 순서대로 기본 양념을 채우는 기준을 정리했습니다.",
+    category: "beginner",
+    publishedAt: "2026-07-11",
+    updatedAt: "2026-07-11",
+    featured: false,
+    hasFaq: true,
+    related: ["starter-tools", "fridge-priority-shopping"]
   }
 ];

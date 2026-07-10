@@ -138,6 +138,13 @@
       "type": "column",
       "title": "정보를 큐레이션하며 느낀 책임감",
       "slug": "content-curation-responsibility"
+    },
+    {
+      "date": "2026-07-11",
+      "type": "post",
+      "category": "beginner",
+      "title": "자취생 기본 양념, 뭐부터 사야 할까",
+      "slug": "seasoning-priority-guide"
     }
   ]
 }

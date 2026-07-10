@@ -2,7 +2,7 @@
   "_readme": "자동 발행 파이프라인용 사전 검증 주제 큐입니다. 매 예약 실행(06:30/12:30 글, 18:30 칼럼)마다 status가 'pending'인 항목을 카테고리 로테이션 순서대로 하나씩 꺼내 작성하고, 작성 완료 후 status를 'published'로 바꾸고 slug/publishedAt을 채워 넣습니다. 새 항목을 큐에 추가하기 전에는 반드시 data/posts.js, data/columns.js 및 이 파일의 기존 title과 중복/유사 여부를 확인해야 합니다.",
   "rotation": {
     "categoryOrder": ["banchan", "one-dish", "beginner", "kitchen-tools", "ingredients"],
-    "lastCategoryIndex": 1,
+    "lastCategoryIndex": 2,
     "note": "postQueue에서 다음 글을 고를 때 categoryOrder를 순서대로 순환하며, lastCategoryIndex를 사용할 때마다 갱신합니다."
   },
   "postQueue": [
@@ -34,7 +34,7 @@
 
     { "category": "beginner", "title": "자취요리 초반에 흔한 계량 실수", "angle": "숟가락 종류(계량스푼 vs 밥숟가락) 혼동", "status": "published", "slug": "measuring-spoon-rice-spoon", "publishedAt": "2026-07-05" },
     { "category": "beginner", "title": "처음 장 볼 때 냉장고 채우는 우선순위", "angle": "자주 쓰는 재료부터 채우는 기준", "status": "published", "slug": "fridge-priority-shopping", "publishedAt": "2026-07-08" },
-    { "category": "beginner", "title": "자취생 기본 양념, 뭐부터 사야 할까", "angle": "활용도 높은 양념 우선순위", "status": "pending" },
+    { "category": "beginner", "title": "자취생 기본 양념, 뭐부터 사야 할까", "angle": "활용도 높은 양념 우선순위", "status": "published", "slug": "seasoning-priority-guide", "publishedAt": "2026-07-11" },
     { "category": "beginner", "title": "요리 초보가 자주 태우는 이유", "angle": "불 세기 감각과 자리 비움 습관", "status": "pending" },
     { "category": "beginner", "title": "밑간과 겉간의 차이, 초보자가 놓치는 부분", "angle": "재료 자체 간과 완성 간 구분", "status": "pending" },
     { "category": "beginner", "title": "자취요리 설거지 줄이는 조리 순서", "angle": "재료 손질과 조리 순서 재배치", "status": "pending" },

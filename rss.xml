@@ -5,8 +5,16 @@
     <link>https://www.zipbabstudio.com/</link>
     <description>집에서 만드는 든든한 한 끼, 집밥연구소 - 요리 초보자와 집밥을 즐기는 사람들을 위한 요리 정보 사이트</description>
     <language>ko-KR</language>
-    <lastBuildDate>Fri, 10 Jul 2026 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 00:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.zipbabstudio.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>자취생 기본 양념, 뭐부터 사야 할까</title>
+      <link>https://www.zipbabstudio.com/posts/seasoning-priority-guide/</link>
+      <guid isPermaLink="true">https://www.zipbabstudio.com/posts/seasoning-priority-guide/</guid>
+      <description>자취를 처음 시작할 때 어떤 양념부터 갖춰야 할지 막막한 분들을 위해, 활용도가 높은 순서대로 기본 양념을 채우는 기준을 정리했습니다.</description>
+      <category>자취요리·초보 입문</category>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>정보를 큐레이션하며 느낀 책임감</title>
       <link>https://www.zipbabstudio.com/columns/content-curation-responsibility/</link>
@@ -238,14 +246,6 @@
       <description>요즘 요리를 처음 시작하는 사람들의 질문에는 몇 가지 공통된 패턴이 있습니다. 콘텐츠를 준비하며 정리해 본 관찰입니다.</description>
       <category>칼럼</category>
       <pubDate>Thu, 25 Jun 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>행주·수세미 위생 관리, 교체 주기</title>
-      <link>https://www.zipbabstudio.com/posts/dishcloth-hygiene/</link>
-      <guid isPermaLink="true">https://www.zipbabstudio.com/posts/dishcloth-hygiene/</guid>
-      <description>행주와 수세미는 주방에서 세균이 가장 빨리 번식하는 도구 중 하나입니다. 관리 습관과 교체 주기를 정리했습니다.</description>
-      <category>요리 도구·주방 관리</category>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
