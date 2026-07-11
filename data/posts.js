@@ -472,5 +472,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["starter-tools", "fridge-priority-shopping"]
+  },
+  {
+    slug: "measuring-tool-substitute",
+    title: "계량스푼·계량컵 없을 때 대체하는 법",
+    summary:
+      "계량스푼이나 계량컵이 없을 때 아무 숟가락이나 컵으로 대충 재면 간이 흔들리기 쉽습니다. 일반 숟가락·종이컵으로 대체하는 기준을 정리했습니다.",
+    category: "kitchen-tools",
+    publishedAt: "2026-07-11",
+    updatedAt: "2026-07-11",
+    featured: false,
+    hasFaq: true,
+    related: ["measuring-spoon-rice-spoon", "starter-tools"]
   }
 ];
