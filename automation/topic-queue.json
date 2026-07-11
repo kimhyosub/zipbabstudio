@@ -2,7 +2,7 @@
   "_readme": "자동 발행 파이프라인용 사전 검증 주제 큐입니다. 매 예약 실행(06:30/12:30 글, 18:30 칼럼)마다 status가 'pending'인 항목을 카테고리 로테이션 순서대로 하나씩 꺼내 작성하고, 작성 완료 후 status를 'published'로 바꾸고 slug/publishedAt을 채워 넣습니다. 새 항목을 큐에 추가하기 전에는 반드시 data/posts.js, data/columns.js 및 이 파일의 기존 title과 중복/유사 여부를 확인해야 합니다.",
   "rotation": {
     "categoryOrder": ["banchan", "one-dish", "beginner", "kitchen-tools", "ingredients"],
-    "lastCategoryIndex": 2,
+    "lastCategoryIndex": 3,
     "note": "postQueue에서 다음 글을 고를 때 categoryOrder를 순서대로 순환하며, lastCategoryIndex를 사용할 때마다 갱신합니다."
   },
   "postQueue": [
@@ -47,7 +47,7 @@
 
     { "category": "kitchen-tools", "title": "나무도마 갈라지는 이유와 관리법", "angle": "건조·오일링 관리 주기", "status": "published", "slug": "wooden-cutting-board-care", "publishedAt": "2026-07-05" },
     { "category": "kitchen-tools", "title": "스테인리스 팬 눌어붙지 않게 쓰는 법", "angle": "예열 판단과 기름 두르는 타이밍", "status": "published", "slug": "stainless-pan-preheat", "publishedAt": "2026-07-09" },
-    { "category": "kitchen-tools", "title": "계량스푼·컵 없을 때 대체하는 법", "angle": "일반 숟가락·종이컵 대체 기준", "status": "pending" },
+    { "category": "kitchen-tools", "title": "계량스푼·컵 없을 때 대체하는 법", "angle": "일반 숟가락·종이컵 대체 기준", "status": "published", "slug": "measuring-tool-substitute", "publishedAt": "2026-07-11" },
     { "category": "kitchen-tools", "title": "전자레인지 위생 관리, 냄새 제거법", "angle": "내부 세척 주기와 냄새 원인", "status": "pending" },
     { "category": "kitchen-tools", "title": "냄비 눌은 자국 제거하는 법", "angle": "재질별 세척 방법 차이", "status": "pending" },
     { "category": "kitchen-tools", "title": "실리콘 조리도구 변색·냄새 관리", "angle": "고온 노출과 세척 습관", "status": "pending" },
