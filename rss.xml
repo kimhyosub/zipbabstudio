@@ -8,6 +8,14 @@
     <lastBuildDate>Sat, 11 Jul 2026 00:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.zipbabstudio.com/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>초보자와 숙련자의 기준 차이</title>
+      <link>https://www.zipbabstudio.com/columns/beginner-expert-standard-gap/</link>
+      <guid isPermaLink="true">https://www.zipbabstudio.com/columns/beginner-expert-standard-gap/</guid>
+      <description>같은 '약불에 은근히'라는 표현도 초보자와 숙련자는 다르게 받아들입니다. 콘텐츠를 정리하며 마주친, 같은 표현을 다르게 이해하는 이유를 정리했습니다.</description>
+      <category>칼럼</category>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>계량스푼·계량컵 없을 때 대체하는 법</title>
       <link>https://www.zipbabstudio.com/posts/measuring-tool-substitute/</link>
       <guid isPermaLink="true">https://www.zipbabstudio.com/posts/measuring-tool-substitute/</guid>
@@ -238,14 +246,6 @@
       <description>채소는 종류에 따라 보관 온도와 방식이 크게 달라집니다. 자주 사는 채소를 기준으로 보관 원칙을 정리했습니다.</description>
       <category>식재료 활용·보관법</category>
       <pubDate>Wed, 01 Jul 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>프라이팬 코팅 오래 쓰는 관리법, 초보가 놓치는 습관</title>
-      <link>https://www.zipbabstudio.com/posts/pan-coating-care/</link>
-      <guid isPermaLink="true">https://www.zipbabstudio.com/posts/pan-coating-care/</guid>
-      <description>코팅 프라이팬의 수명을 줄이는 건 대부분 세척과 화력 습관입니다. 코팅을 오래 유지하는 기본 관리법을 정리했습니다.</description>
-      <category>요리 도구·주방 관리</category>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>

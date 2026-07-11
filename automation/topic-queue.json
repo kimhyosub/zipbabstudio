@@ -84,7 +84,7 @@
     { "title": "도구보다 순서가 중요하다고 느낀 계기", "angle": "장비보다 프로세스 중심 관점", "status": "skipped" },
     { "title": "요즘 1인 가구 요리, 무엇이 달라졌나", "angle": "소포장·간편 조리 환경 변화 관찰", "status": "published", "slug": "solo-household-cooking-shift", "publishedAt": "2026-07-10" },
     { "title": "정보를 큐레이션하며 느낀 책임감", "angle": "콘텐츠 검증 과정에 대한 생각", "status": "published", "slug": "content-curation-responsibility", "publishedAt": "2026-07-10" },
-    { "title": "초보자와 숙련자의 기준 차이", "angle": "같은 표현을 다르게 이해하는 이유", "status": "pending" },
+    { "title": "초보자와 숙련자의 기준 차이", "angle": "같은 표현을 다르게 이해하는 이유", "status": "published", "slug": "beginner-expert-standard-gap", "publishedAt": "2026-07-11" },
     { "title": "레시피를 읽는 방식도 바뀌고 있다", "angle": "영상·숏폼 중심 소비 습관 변화", "status": "pending" },
     { "title": "실수를 반복하지 않으려면 필요한 것", "angle": "기록과 피드백의 역할", "status": "pending" },
     { "title": "요리 정보의 신뢰성, 어떻게 판단해야 할까", "angle": "출처와 재현 가능성 기준", "status": "pending" },
