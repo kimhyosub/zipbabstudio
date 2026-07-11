@@ -158,6 +158,13 @@
       "type": "column",
       "title": "초보자와 숙련자의 기준 차이",
       "slug": "beginner-expert-standard-gap"
+    },
+    {
+      "date": "2026-07-12",
+      "type": "post",
+      "category": "ingredients",
+      "title": "우유·유제품 보관 온도와 소비기한",
+      "slug": "milk-dairy-storage"
     }
   ]
 }
