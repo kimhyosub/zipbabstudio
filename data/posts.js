@@ -484,5 +484,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["measuring-spoon-rice-spoon", "starter-tools"]
+  },
+  {
+    slug: "milk-dairy-storage",
+    title: "우유·유제품 보관 온도와 소비기한",
+    summary:
+      "우유와 유제품은 개봉 전후로 보관 기준이 크게 달라집니다. 냉장 온도와 소비기한을 어떻게 봐야 하는지 정리했습니다.",
+    category: "ingredients",
+    publishedAt: "2026-07-12",
+    updatedAt: "2026-07-12",
+    featured: false,
+    hasFaq: true,
+    related: ["expiry-vs-best-before", "tofu-storage"]
   }
 ];

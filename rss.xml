@@ -5,8 +5,16 @@
     <link>https://www.zipbabstudio.com/</link>
     <description>집에서 만드는 든든한 한 끼, 집밥연구소 - 요리 초보자와 집밥을 즐기는 사람들을 위한 요리 정보 사이트</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sat, 11 Jul 2026 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 00:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.zipbabstudio.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>우유·유제품 보관 온도와 소비기한</title>
+      <link>https://www.zipbabstudio.com/posts/milk-dairy-storage/</link>
+      <guid isPermaLink="true">https://www.zipbabstudio.com/posts/milk-dairy-storage/</guid>
+      <description>우유와 유제품은 개봉 전후로 보관 기준이 크게 달라집니다. 냉장 온도와 소비기한을 어떻게 봐야 하는지 정리했습니다.</description>
+      <category>식재료 활용·보관법</category>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>초보자와 숙련자의 기준 차이</title>
       <link>https://www.zipbabstudio.com/columns/beginner-expert-standard-gap/</link>
@@ -238,14 +246,6 @@
       <description>유통기한이 지났다고 바로 버려야 하는 건 아닙니다. 소비기한과의 차이를 이해하면 불필요한 폐기를 줄일 수 있습니다.</description>
       <category>식재료 활용·보관법</category>
       <pubDate>Thu, 02 Jul 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>채소별 보관법 총정리, 냉장과 냉동 기준 나누기</title>
-      <link>https://www.zipbabstudio.com/posts/vegetable-storage/</link>
-      <guid isPermaLink="true">https://www.zipbabstudio.com/posts/vegetable-storage/</guid>
-      <description>채소는 종류에 따라 보관 온도와 방식이 크게 달라집니다. 자주 사는 채소를 기준으로 보관 원칙을 정리했습니다.</description>
-      <category>식재료 활용·보관법</category>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
