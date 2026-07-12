@@ -496,5 +496,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["expiry-vs-best-before", "tofu-storage"]
+  },
+  {
+    slug: "dried-vegetable-soaking-time",
+    title: "무말랭이·건나물 불리는 시간과 요령",
+    summary:
+      "무말랭이나 건나물을 불릴 때 시간을 잘못 맞추면 뻣뻣하거나 질척해지기 쉽습니다. 재료별 불리는 시간 기준과 물 온도, 중간 확인 요령을 정리했습니다.",
+    category: "banchan",
+    publishedAt: "2026-07-12",
+    updatedAt: "2026-07-12",
+    featured: false,
+    hasFaq: true,
+    related: ["namul-blanching-color", "vegetable-storage"]
   }
 ];
