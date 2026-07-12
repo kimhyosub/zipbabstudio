@@ -5,8 +5,16 @@
     <link>https://www.zipbabstudio.com/</link>
     <description>집에서 만드는 든든한 한 끼, 집밥연구소 - 요리 초보자와 집밥을 즐기는 사람들을 위한 요리 정보 사이트</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 12 Jul 2026 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 00:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.zipbabstudio.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>카레 농도 조절에 자꾸 실패하는 이유</title>
+      <link>https://www.zipbabstudio.com/posts/curry-thickness-control/</link>
+      <guid isPermaLink="true">https://www.zipbabstudio.com/posts/curry-thickness-control/</guid>
+      <description>카레가 너무 묽거나 되직해지는 건 대부분 물 양과 루를 넣는 시점 때문입니다. 농도를 안정적으로 맞추는 기본 순서를 정리했습니다.</description>
+      <category>한그릇 요리·집밥 메뉴</category>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>레시피를 읽는 방식도 바뀌고 있다</title>
       <link>https://www.zipbabstudio.com/columns/recipe-reading-shift/</link>
@@ -238,14 +246,6 @@
       <description>달걀은 보관 위치와 방식에 따라 신선도 유지 기간이 달라집니다. 신선도를 확인하는 기본 방법도 함께 정리했습니다.</description>
       <category>식재료 활용·보관법</category>
       <pubDate>Sat, 04 Jul 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>자주 남는 대파·마늘, 손질해서 오래 보관하는 법</title>
-      <link>https://www.zipbabstudio.com/posts/scallion-garlic-storage/</link>
-      <guid isPermaLink="true">https://www.zipbabstudio.com/posts/scallion-garlic-storage/</guid>
-      <description>대파와 마늘은 손질 방식에 따라 보관 기간이 크게 달라집니다. 오래 두고 쓰는 손질법을 정리했습니다.</description>
-      <category>식재료 활용·보관법</category>
-      <pubDate>Fri, 03 Jul 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>

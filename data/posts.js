@@ -508,5 +508,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["namul-blanching-color", "vegetable-storage"]
+  },
+  {
+    slug: "curry-thickness-control",
+    title: "카레 농도 조절에 자꾸 실패하는 이유",
+    summary:
+      "카레가 너무 묽거나 되직해지는 건 대부분 물 양과 루를 넣는 시점 때문입니다. 농도를 안정적으로 맞추는 기본 순서를 정리했습니다.",
+    category: "one-dish",
+    publishedAt: "2026-07-13",
+    updatedAt: "2026-07-13",
+    featured: false,
+    hasFaq: true,
+    related: ["basic-broth", "one-bowl-balance"]
   }
 ];
