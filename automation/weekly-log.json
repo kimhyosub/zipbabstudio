@@ -165,6 +165,13 @@
       "category": "ingredients",
       "title": "우유·유제품 보관 온도와 소비기한",
       "slug": "milk-dairy-storage"
+    },
+    {
+      "date": "2026-07-12",
+      "type": "post",
+      "category": "banchan",
+      "title": "무말랭이·건나물 불리는 시간과 요령",
+      "slug": "dried-vegetable-soaking-time"
     }
   ]
 }
