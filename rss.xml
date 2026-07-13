@@ -5,8 +5,16 @@
     <link>https://www.zipbabstudio.com/</link>
     <description>집에서 만드는 든든한 한 끼, 집밥연구소 - 요리 초보자와 집밥을 즐기는 사람들을 위한 요리 정보 사이트</description>
     <language>ko-KR</language>
-    <lastBuildDate>Mon, 13 Jul 2026 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 12:30:00 +0900</lastBuildDate>
     <atom:link href="https://www.zipbabstudio.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>요리 초보가 자주 태우는 이유</title>
+      <link>https://www.zipbabstudio.com/posts/burning-food-habit/</link>
+      <guid isPermaLink="true">https://www.zipbabstudio.com/posts/burning-food-habit/</guid>
+      <description>요리 초보가 음식을 자주 태우는 건 불 세기를 가늠하지 못해서만이 아니라, 조리 중 자리를 비우는 습관이 겹치기 때문인 경우가 많습니다. 태우는 원인과 줄이는 방법을 정리했습니다.</description>
+      <category>자취요리·초보 입문</category>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>카레 농도 조절에 자꾸 실패하는 이유</title>
       <link>https://www.zipbabstudio.com/posts/curry-thickness-control/</link>
@@ -237,14 +245,6 @@
       <guid isPermaLink="true">https://www.zipbabstudio.com/posts/fridge-cleanout/</guid>
       <description>냉장고에 조금씩 남은 재료를 활용하는 기준을 정리했습니다. 자취요리에서 특히 유용한 접근법입니다.</description>
       <category>자취요리·초보 입문</category>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>달걀 보관과 신선도 확인하는 법</title>
-      <link>https://www.zipbabstudio.com/posts/egg-freshness-storage/</link>
-      <guid isPermaLink="true">https://www.zipbabstudio.com/posts/egg-freshness-storage/</guid>
-      <description>달걀은 보관 위치와 방식에 따라 신선도 유지 기간이 달라집니다. 신선도를 확인하는 기본 방법도 함께 정리했습니다.</description>
-      <category>식재료 활용·보관법</category>
       <pubDate>Sat, 04 Jul 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>

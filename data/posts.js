@@ -520,5 +520,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["basic-broth", "one-bowl-balance"]
+  },
+  {
+    slug: "burning-food-habit",
+    title: "요리 초보가 자주 태우는 이유",
+    summary:
+      "요리 초보가 음식을 자주 태우는 건 불 세기를 가늠하지 못해서만이 아니라, 조리 중 자리를 비우는 습관이 겹치기 때문인 경우가 많습니다. 태우는 원인과 줄이는 방법을 정리했습니다.",
+    category: "beginner",
+    publishedAt: "2026-07-13",
+    updatedAt: "2026-07-13",
+    featured: false,
+    hasFaq: true,
+    related: ["heat-control", "jorim-heat-control"]
   }
 ];
