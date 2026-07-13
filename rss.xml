@@ -5,8 +5,16 @@
     <link>https://www.zipbabstudio.com/</link>
     <description>집에서 만드는 든든한 한 끼, 집밥연구소 - 요리 초보자와 집밥을 즐기는 사람들을 위한 요리 정보 사이트</description>
     <language>ko-KR</language>
-    <lastBuildDate>Mon, 13 Jul 2026 12:30:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 18:30:00 +0900</lastBuildDate>
     <atom:link href="https://www.zipbabstudio.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>실수를 반복하지 않으려면 필요한 것</title>
+      <link>https://www.zipbabstudio.com/columns/mistake-record-feedback/</link>
+      <guid isPermaLink="true">https://www.zipbabstudio.com/columns/mistake-record-feedback/</guid>
+      <description>같은 실수를 요리할 때마다 반복한다면 감이 아니라 기록이 부족한 경우가 많습니다. 콘텐츠를 정리하며 느낀 기록과 피드백의 역할을 정리했습니다.</description>
+      <category>칼럼</category>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>요리 초보가 자주 태우는 이유</title>
       <link>https://www.zipbabstudio.com/posts/burning-food-habit/</link>
@@ -238,14 +246,6 @@
       <description>레시피 영상은 그 어느 때보다 많아졌지만 &apos;따라 했는데 안 됐다&apos;는 질문은 줄지 않았습니다. 콘텐츠를 정리하며 느낀 정보량과 실전 성공률의 차이를 정리했습니다.</description>
       <category>칼럼</category>
       <pubDate>Sun, 05 Jul 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>냉장고 파먹기, 남은 재료로 반찬 만드는 기준</title>
-      <link>https://www.zipbabstudio.com/posts/fridge-cleanout/</link>
-      <guid isPermaLink="true">https://www.zipbabstudio.com/posts/fridge-cleanout/</guid>
-      <description>냉장고에 조금씩 남은 재료를 활용하는 기준을 정리했습니다. 자취요리에서 특히 유용한 접근법입니다.</description>
-      <category>자취요리·초보 입문</category>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
