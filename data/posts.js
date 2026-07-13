@@ -532,5 +532,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["heat-control", "jorim-heat-control"]
+  },
+  {
+    slug: "microwave-cleaning",
+    title: "전자레인지 위생 관리, 냄새 제거법",
+    summary:
+      "전자레인지에서 자꾸 냄새가 나는 건 대부분 내부 세척 주기와 음식물 잔여물 때문입니다. 냄새 원인과 관리 주기를 정리했습니다.",
+    category: "kitchen-tools",
+    publishedAt: "2026-07-14",
+    updatedAt: "2026-07-14",
+    featured: false,
+    hasFaq: true,
+    related: ["dishcloth-hygiene", "container-guide"]
   }
 ];

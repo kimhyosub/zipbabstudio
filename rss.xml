@@ -5,8 +5,16 @@
     <link>https://www.zipbabstudio.com/</link>
     <description>집에서 만드는 든든한 한 끼, 집밥연구소 - 요리 초보자와 집밥을 즐기는 사람들을 위한 요리 정보 사이트</description>
     <language>ko-KR</language>
-    <lastBuildDate>Mon, 13 Jul 2026 18:30:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 06:30:00 +0900</lastBuildDate>
     <atom:link href="https://www.zipbabstudio.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>전자레인지 위생 관리, 냄새 제거법</title>
+      <link>https://www.zipbabstudio.com/posts/microwave-cleaning/</link>
+      <guid isPermaLink="true">https://www.zipbabstudio.com/posts/microwave-cleaning/</guid>
+      <description>전자레인지에서 자꾸 냄새가 나는 건 대부분 내부 세척 주기와 음식물 잔여물 때문입니다. 냄새 원인과 관리 주기를 정리했습니다.</description>
+      <category>요리 도구·주방 관리</category>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>실수를 반복하지 않으려면 필요한 것</title>
       <link>https://www.zipbabstudio.com/columns/mistake-record-feedback/</link>
@@ -237,14 +245,6 @@
       <guid isPermaLink="true">https://www.zipbabstudio.com/posts/wooden-cutting-board-care/</guid>
       <description>나무도마가 마르면서 갈라지는 건 대부분 건조 방식과 오일링 관리 주기 때문입니다. 갈라짐을 줄이는 기본 관리법을 정리했습니다.</description>
       <category>요리 도구·주방 관리</category>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>레시피 영상은 넘치는데 왜 여전히 실패할까</title>
-      <link>https://www.zipbabstudio.com/columns/recipe-video-gap/</link>
-      <guid isPermaLink="true">https://www.zipbabstudio.com/columns/recipe-video-gap/</guid>
-      <description>레시피 영상은 그 어느 때보다 많아졌지만 &apos;따라 했는데 안 됐다&apos;는 질문은 줄지 않았습니다. 콘텐츠를 정리하며 느낀 정보량과 실전 성공률의 차이를 정리했습니다.</description>
-      <category>칼럼</category>
       <pubDate>Sun, 05 Jul 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
