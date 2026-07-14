@@ -556,5 +556,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["vegetable-storage", "tofu-storage"]
+  },
+  {
+    slug: "jinmichae-bokkeum-texture",
+    title: "진미채볶음이 뻣뻣해지는 이유와 부드럽게 볶는 법",
+    summary:
+      "진미채볶음이 딱딱하고 질겨지는 건 대부분 재료 두께와 양념 넣는 타이밍 때문입니다. 부드럽게 볶는 기본 순서를 정리했습니다.",
+    category: "banchan",
+    publishedAt: "2026-07-15",
+    updatedAt: "2026-07-15",
+    featured: false,
+    hasFaq: true,
+    related: ["myeolchi-bokkeum", "muchim-timing"]
   }
 ];
