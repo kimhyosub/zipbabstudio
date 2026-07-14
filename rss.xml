@@ -5,8 +5,16 @@
     <link>https://www.zipbabstudio.com/</link>
     <description>집에서 만드는 든든한 한 끼, 집밥연구소 - 요리 초보자와 집밥을 즐기는 사람들을 위한 요리 정보 사이트</description>
     <language>ko-KR</language>
-    <lastBuildDate>Tue, 14 Jul 2026 06:30:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 12:30:00 +0900</lastBuildDate>
     <atom:link href="https://www.zipbabstudio.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>콩나물 보관법, 무르지 않게 하는 법</title>
+      <link>https://www.zipbabstudio.com/posts/bean-sprout-storage/</link>
+      <guid isPermaLink="true">https://www.zipbabstudio.com/posts/bean-sprout-storage/</guid>
+      <description>콩나물은 사 온 지 하루이틀만 지나도 물러지고 특유의 비린내가 올라오기 쉬운 재료입니다. 물에 담가 보관하는 방법과 물을 교체하는 주기를 정리했습니다.</description>
+      <category>식재료 활용·보관법</category>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>전자레인지 위생 관리, 냄새 제거법</title>
       <link>https://www.zipbabstudio.com/posts/microwave-cleaning/</link>
@@ -237,14 +245,6 @@
       <guid isPermaLink="true">https://www.zipbabstudio.com/posts/measuring-spoon-rice-spoon/</guid>
       <description>레시피의 &apos;1큰술&apos;을 밥숟가락으로 재는 건 자취요리 초반에 흔한 계량 실수입니다. 계량스푼과 밥숟가락의 용량 차이와 대체 기준을 정리했습니다.</description>
       <category>자취요리·초보 입문</category>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>나무도마 갈라지는 이유와 관리법</title>
-      <link>https://www.zipbabstudio.com/posts/wooden-cutting-board-care/</link>
-      <guid isPermaLink="true">https://www.zipbabstudio.com/posts/wooden-cutting-board-care/</guid>
-      <description>나무도마가 마르면서 갈라지는 건 대부분 건조 방식과 오일링 관리 주기 때문입니다. 갈라짐을 줄이는 기본 관리법을 정리했습니다.</description>
-      <category>요리 도구·주방 관리</category>
       <pubDate>Sun, 05 Jul 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>

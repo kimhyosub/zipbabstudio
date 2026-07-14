@@ -544,5 +544,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["dishcloth-hygiene", "container-guide"]
+  },
+  {
+    slug: "bean-sprout-storage",
+    title: "콩나물 보관법, 무르지 않게 하는 법",
+    summary:
+      "콩나물은 사 온 지 하루이틀만 지나도 물러지고 특유의 비린내가 올라오기 쉬운 재료입니다. 물에 담가 보관하는 방법과 물을 교체하는 주기를 정리했습니다.",
+    category: "ingredients",
+    publishedAt: "2026-07-14",
+    updatedAt: "2026-07-14",
+    featured: false,
+    hasFaq: true,
+    related: ["vegetable-storage", "tofu-storage"]
   }
 ];

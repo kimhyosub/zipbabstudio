@@ -2,7 +2,7 @@
   "_readme": "자동 발행 파이프라인용 사전 검증 주제 큐입니다. 매 예약 실행(06:30/12:30 글, 18:30 칼럼)마다 status가 'pending'인 항목을 카테고리 로테이션 순서대로 하나씩 꺼내 작성하고, 작성 완료 후 status를 'published'로 바꾸고 slug/publishedAt을 채워 넣습니다. 새 항목을 큐에 추가하기 전에는 반드시 data/posts.js, data/columns.js 및 이 파일의 기존 title과 중복/유사 여부를 확인해야 합니다.",
   "rotation": {
     "categoryOrder": ["banchan", "one-dish", "beginner", "kitchen-tools", "ingredients"],
-    "lastCategoryIndex": 3,
+    "lastCategoryIndex": 4,
     "note": "postQueue에서 다음 글을 고를 때 categoryOrder를 순서대로 순환하며, lastCategoryIndex를 사용할 때마다 갱신합니다."
   },
   "postQueue": [
@@ -62,7 +62,7 @@
     { "category": "ingredients", "title": "버섯류 보관법, 물러지지 않게 하는 법", "angle": "습기 관리와 보관 용기", "status": "published", "slug": "mushroom-storage", "publishedAt": "2026-07-06" },
     { "category": "ingredients", "title": "다진 고기 소분·냉동 보관하는 법", "angle": "소분 단위와 밀착 포장", "status": "published", "slug": "ground-meat-freezing", "publishedAt": "2026-07-09" },
     { "category": "ingredients", "title": "우유·유제품 보관 온도와 소비기한", "angle": "개봉 전후 보관 기준 차이", "status": "published", "slug": "milk-dairy-storage", "publishedAt": "2026-07-12" },
-    { "category": "ingredients", "title": "콩나물 보관법, 무르지 않게 하는 법", "angle": "물에 담가 보관하는 법과 교체 주기", "status": "pending" },
+    { "category": "ingredients", "title": "콩나물 보관법, 무르지 않게 하는 법", "angle": "물에 담가 보관하는 법과 교체 주기", "status": "published", "slug": "bean-sprout-storage", "publishedAt": "2026-07-14" },
     { "category": "ingredients", "title": "냉동실 정리, 오래된 재료 놓치지 않는 법", "angle": "라벨링과 배치 기준", "status": "pending" },
     { "category": "ingredients", "title": "밥 소분 냉동·해동하는 법", "angle": "소분 타이밍과 해동 방식", "status": "pending" },
     { "category": "ingredients", "title": "김치 보관 온도와 익는 속도 조절", "angle": "냉장 온도별 발효 속도", "status": "pending" },
