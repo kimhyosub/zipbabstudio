@@ -5,8 +5,16 @@
     <link>https://www.zipbabstudio.com/</link>
     <description>집에서 만드는 든든한 한 끼, 집밥연구소 - 요리 초보자와 집밥을 즐기는 사람들을 위한 요리 정보 사이트</description>
     <language>ko-KR</language>
-    <lastBuildDate>Tue, 14 Jul 2026 12:30:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 18:30:00 +0900</lastBuildDate>
     <atom:link href="https://www.zipbabstudio.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>요리 정보의 신뢰성, 어떻게 판단해야 할까</title>
+      <link>https://www.zipbabstudio.com/columns/recipe-reliability-standard/</link>
+      <guid isPermaLink="true">https://www.zipbabstudio.com/columns/recipe-reliability-standard/</guid>
+      <description>같은 요리를 검색해도 결과가 저마다 다른 이유는 출처와 재현 가능성을 따져보지 않아서인 경우가 많습니다. 콘텐츠를 정리하며 정리해 본 신뢰성 판단 기준입니다.</description>
+      <category>칼럼</category>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>콩나물 보관법, 무르지 않게 하는 법</title>
       <link>https://www.zipbabstudio.com/posts/bean-sprout-storage/</link>
@@ -237,14 +245,6 @@
       <guid isPermaLink="true">https://www.zipbabstudio.com/posts/egg-fried-rice-coating/</guid>
       <description>계란볶음밥이 자꾸 팍팍하고 밥알이 따로 노는 건 계란 코팅 순서와 기름 온도 때문인 경우가 많습니다. 고슬고슬하면서도 촉촉한 계란볶음밥을 만드는 기본 순서를 정리했습니다.</description>
       <category>한그릇 요리·집밥 메뉴</category>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>계량스푼과 밥숟가락, 헷갈리면 간이 달라지는 이유</title>
-      <link>https://www.zipbabstudio.com/posts/measuring-spoon-rice-spoon/</link>
-      <guid isPermaLink="true">https://www.zipbabstudio.com/posts/measuring-spoon-rice-spoon/</guid>
-      <description>레시피의 &apos;1큰술&apos;을 밥숟가락으로 재는 건 자취요리 초반에 흔한 계량 실수입니다. 계량스푼과 밥숟가락의 용량 차이와 대체 기준을 정리했습니다.</description>
-      <category>자취요리·초보 입문</category>
       <pubDate>Sun, 05 Jul 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
