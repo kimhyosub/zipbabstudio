@@ -2,7 +2,7 @@
   "_readme": "자동 발행 파이프라인용 사전 검증 주제 큐입니다. 매 예약 실행(06:30/12:30 글, 18:30 칼럼)마다 status가 'pending'인 항목을 카테고리 로테이션 순서대로 하나씩 꺼내 작성하고, 작성 완료 후 status를 'published'로 바꾸고 slug/publishedAt을 채워 넣습니다. 새 항목을 큐에 추가하기 전에는 반드시 data/posts.js, data/columns.js 및 이 파일의 기존 title과 중복/유사 여부를 확인해야 합니다.",
   "rotation": {
     "categoryOrder": ["banchan", "one-dish", "beginner", "kitchen-tools", "ingredients"],
-    "lastCategoryIndex": 0,
+    "lastCategoryIndex": 1,
     "note": "postQueue에서 다음 글을 고를 때 categoryOrder를 순서대로 순환하며, lastCategoryIndex를 사용할 때마다 갱신합니다."
   },
   "postQueue": [
@@ -23,7 +23,7 @@
     { "category": "one-dish", "title": "잔치국수 붇지 않게 삶고 보관하는 법", "angle": "면 삶는 시간과 헹굼, 국물 분리 보관", "status": "published", "slug": "janchi-guksu-storage", "publishedAt": "2026-07-07" },
     { "category": "one-dish", "title": "비빔국수 양념장 기본 비율", "angle": "고추장 베이스 비율과 신맛 조절", "status": "published", "slug": "bibim-guksu-sauce-ratio", "publishedAt": "2026-07-10" },
     { "category": "one-dish", "title": "카레 농도 조절에 자꾸 실패하는 이유", "angle": "물 양과 루 넣는 시점", "status": "published", "slug": "curry-thickness-control", "publishedAt": "2026-07-13" },
-    { "category": "one-dish", "title": "짜장밥 양념이 뭉치는 이유", "angle": "춘장 볶는 온도와 전분물 타이밍", "status": "pending" },
+    { "category": "one-dish", "title": "짜장밥 양념이 뭉치는 이유", "angle": "춘장 볶는 온도와 전분물 타이밍", "status": "published", "slug": "jjajangbap-sauce-clumping", "publishedAt": "2026-07-15" },
     { "category": "one-dish", "title": "오므라이스 계란이 찢어지지 않게 마는 법", "angle": "불 세기와 계란물 두께", "status": "pending" },
     { "category": "one-dish", "title": "부대찌개 국물 베이스 기본 잡는 법", "angle": "육수와 김치 국물 비율", "status": "pending" },
     { "category": "one-dish", "title": "떡볶이 떡이 딱딱해지는 이유", "angle": "떡 종류와 조리 시간, 보관 방식", "status": "pending" },

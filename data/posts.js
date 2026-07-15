@@ -568,5 +568,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["myeolchi-bokkeum", "muchim-timing"]
+  },
+  {
+    slug: "jjajangbap-sauce-clumping",
+    title: "짜장밥 양념이 뭉치는 이유와 매끄럽게 만드는 법",
+    summary:
+      "짜장밥 소스가 덩어리지고 뭉치는 건 대부분 춘장을 볶는 온도와 전분물을 넣는 타이밍 때문입니다. 매끈한 소스를 만드는 기본 순서를 정리했습니다.",
+    category: "one-dish",
+    publishedAt: "2026-07-15",
+    updatedAt: "2026-07-15",
+    featured: false,
+    hasFaq: true,
+    related: ["curry-thickness-control", "bokkeumbap-rice"]
   }
 ];
