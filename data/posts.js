@@ -580,5 +580,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["curry-thickness-control", "bokkeumbap-rice"]
+  },
+  {
+    slug: "seasoning-inside-vs-surface",
+    title: "밑간과 겉간의 차이, 초보자가 놓치는 부분",
+    summary:
+      "레시피대로 간을 맞췄는데도 밍밍하거나 짜다면, 재료 자체에 넣는 밑간과 완성 단계에서 맞추는 겉간을 구분하지 않았을 가능성이 있습니다. 두 간의 역할 차이를 정리했습니다.",
+    category: "beginner",
+    publishedAt: "2026-07-20",
+    updatedAt: "2026-07-20",
+    featured: false,
+    hasFaq: true,
+    related: ["measuring-habit", "seasoning-priority-guide"]
   }
 ];

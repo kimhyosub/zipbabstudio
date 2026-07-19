@@ -5,8 +5,16 @@
     <link>https://www.zipbabstudio.com/</link>
     <description>집에서 만드는 든든한 한 끼, 집밥연구소 - 요리 초보자와 집밥을 즐기는 사람들을 위한 요리 정보 사이트</description>
     <language>ko-KR</language>
-    <lastBuildDate>Fri, 17 Jul 2026 18:30:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 06:30:00 +0900</lastBuildDate>
     <atom:link href="https://www.zipbabstudio.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>밑간과 겉간의 차이, 초보자가 놓치는 부분</title>
+      <link>https://www.zipbabstudio.com/posts/seasoning-inside-vs-surface/</link>
+      <guid isPermaLink="true">https://www.zipbabstudio.com/posts/seasoning-inside-vs-surface/</guid>
+      <description>레시피대로 간을 맞췄는데도 밍밍하거나 짜다면, 재료 자체에 넣는 밑간과 완성 단계에서 맞추는 겉간을 구분하지 않았을 가능성이 있습니다. 두 간의 역할 차이를 정리했습니다.</description>
+      <category>자취요리·초보 입문</category>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>계절 재료보다 보관법이 더 중요해진 이유</title>
       <link>https://www.zipbabstudio.com/columns/storage-over-seasonality/</link>
@@ -237,14 +245,6 @@
       <guid isPermaLink="true">https://www.zipbabstudio.com/columns/habit-over-tools/</guid>
       <description>도구를 바꾸고 레시피를 찾아봐도 실력이 잘 늘지 않는다는 질문을 자주 봅니다. 콘텐츠를 정리하며 재능이나 도구보다 반복되는 습관이 더 크게 작용한다고 느낀 지점을 정리했습니다.</description>
       <category>칼럼</category>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>버섯류 보관법, 물러지지 않게 하는 법</title>
-      <link>https://www.zipbabstudio.com/posts/mushroom-storage/</link>
-      <guid isPermaLink="true">https://www.zipbabstudio.com/posts/mushroom-storage/</guid>
-      <description>버섯은 습기에 특히 약해 보관 방식을 잘못 잡으면 금방 물러지고 미끈거립니다. 습기 관리와 보관 용기 선택 기준을 정리했습니다.</description>
-      <category>식재료 활용·보관법</category>
       <pubDate>Mon, 06 Jul 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
