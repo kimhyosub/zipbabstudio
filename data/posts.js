@@ -592,5 +592,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["measuring-habit", "seasoning-priority-guide"]
+  },
+  {
+    slug: "pot-burnt-stain-removal",
+    title: "냄비 눌은 자국 제거하는 법, 재질별로 다르게 접근해야 하는 이유",
+    summary:
+      "냄비 바닥에 눌은 자국이 생겼을 때 재질을 구분하지 않고 문지르면 표면이 상할 수 있습니다. 스테인리스·코팅 팬·알루미늄 냄비별로 안전하게 자국을 제거하는 방법을 정리했습니다.",
+    category: "kitchen-tools",
+    publishedAt: "2026-07-22",
+    updatedAt: "2026-07-22",
+    featured: false,
+    hasFaq: true,
+    related: ["stainless-pan-preheat", "pan-coating-care"]
   }
 ];

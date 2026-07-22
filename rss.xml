@@ -5,8 +5,16 @@
     <link>https://www.zipbabstudio.com/</link>
     <description>집에서 만드는 든든한 한 끼, 집밥연구소 - 요리 초보자와 집밥을 즐기는 사람들을 위한 요리 정보 사이트</description>
     <language>ko-KR</language>
-    <lastBuildDate>Mon, 20 Jul 2026 06:30:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 12:30:00 +0900</lastBuildDate>
     <atom:link href="https://www.zipbabstudio.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>냄비 눌은 자국 제거하는 법, 재질별로 다르게 접근해야 하는 이유</title>
+      <link>https://www.zipbabstudio.com/posts/pot-burnt-stain-removal/</link>
+      <guid isPermaLink="true">https://www.zipbabstudio.com/posts/pot-burnt-stain-removal/</guid>
+      <description>냄비 바닥에 눌은 자국이 생겼을 때 재질을 구분하지 않고 문지르면 표면이 상할 수 있습니다. 스테인리스·코팅 팬·알루미늄 냄비별로 안전하게 자국을 제거하는 방법을 정리했습니다.</description>
+      <category>요리 도구·주방 관리</category>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>밑간과 겉간의 차이, 초보자가 놓치는 부분</title>
       <link>https://www.zipbabstudio.com/posts/seasoning-inside-vs-surface/</link>
@@ -238,14 +246,6 @@
       <description>젓갈로 무치거나 볶는 밑반찬은 젓갈 자체의 염도가 제품마다 크게 달라 같은 양을 넣어도 짠맛 차이가 큽니다. 젓갈 종류별 염도 차이를 확인하고 희석하는 기준을 정리했습니다.</description>
       <category>밑반찬·저장음식</category>
       <pubDate>Tue, 07 Jul 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>자취요리, 결국 습관의 문제라는 생각</title>
-      <link>https://www.zipbabstudio.com/columns/habit-over-tools/</link>
-      <guid isPermaLink="true">https://www.zipbabstudio.com/columns/habit-over-tools/</guid>
-      <description>도구를 바꾸고 레시피를 찾아봐도 실력이 잘 늘지 않는다는 질문을 자주 봅니다. 콘텐츠를 정리하며 재능이나 도구보다 반복되는 습관이 더 크게 작용한다고 느낀 지점을 정리했습니다.</description>
-      <category>칼럼</category>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
