@@ -90,7 +90,7 @@
     { "title": "요리 정보의 신뢰성, 어떻게 판단해야 할까", "angle": "출처와 재현 가능성 기준", "status": "published", "slug": "recipe-reliability-standard", "publishedAt": "2026-07-14" },
     { "title": "검색으로 배우는 요리의 한계", "angle": "파편적 정보 습득의 문제", "status": "published", "slug": "search-based-learning-limits", "publishedAt": "2026-07-15" },
     { "title": "계절 재료보다 보관법이 더 중요해진 이유", "angle": "유통 환경 변화에 따른 관점", "status": "published", "slug": "storage-over-seasonality", "publishedAt": "2026-07-17" },
-    { "title": "자취요리 콘텐츠를 만들며 바뀐 생각", "angle": "운영 경험을 통한 관점 변화", "status": "pending" },
+    { "title": "자취요리 콘텐츠를 만들며 바뀐 생각", "angle": "운영 경험을 통한 관점 변화", "status": "published", "slug": "content-work-changed-my-thinking", "publishedAt": "2026-07-24" },
     { "title": "완벽한 레시피보다 유연한 기준이 필요한 이유", "angle": "표준화보다 적응력을 강조하는 관점", "status": "pending" },
     { "title": "같은 재료로 결과가 다른 이유, 레시피 밖의 변수들", "angle": "화력·조리도구·습도 등 환경 변수에 대한 관찰", "status": "pending" },
     { "title": "레시피를 저장만 하고 만들지 않는 이유를 생각해봤다", "angle": "저장과 실행 사이의 간극 관찰", "status": "pending" },

@@ -5,8 +5,16 @@
     <link>https://www.zipbabstudio.com/</link>
     <description>집에서 만드는 든든한 한 끼, 집밥연구소 - 요리 초보자와 집밥을 즐기는 사람들을 위한 요리 정보 사이트</description>
     <language>ko-KR</language>
-    <lastBuildDate>Wed, 22 Jul 2026 12:30:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 18:30:00 +0900</lastBuildDate>
     <atom:link href="https://www.zipbabstudio.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>자취요리 콘텐츠를 만들며 바뀐 생각</title>
+      <link>https://www.zipbabstudio.com/columns/content-work-changed-my-thinking/</link>
+      <guid isPermaLink="true">https://www.zipbabstudio.com/columns/content-work-changed-my-thinking/</guid>
+      <description>자취요리 콘텐츠를 계속 만들다 보니 처음 세웠던 방향과 지금의 방식이 꽤 달라졌습니다. 콘텐츠를 운영하며 바뀐 생각을 정리했습니다.</description>
+      <category>칼럼</category>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>냄비 눌은 자국 제거하는 법, 재질별로 다르게 접근해야 하는 이유</title>
       <link>https://www.zipbabstudio.com/posts/pot-burnt-stain-removal/</link>
@@ -237,14 +245,6 @@
       <guid isPermaLink="true">https://www.zipbabstudio.com/posts/janchi-guksu-storage/</guid>
       <description>잔치국수는 삶은 뒤 시간이 지나면 면이 붇고 국물과 엉겨 붙기 쉽습니다. 면 삶는 시간과 헹굼, 국물을 따로 보관하는 방법을 정리했습니다.</description>
       <category>한그릇 요리·집밥 메뉴</category>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>젓갈로 만드는 밑반찬, 짠맛 조절하는 기준</title>
-      <link>https://www.zipbabstudio.com/posts/jeotgal-salt-ratio/</link>
-      <guid isPermaLink="true">https://www.zipbabstudio.com/posts/jeotgal-salt-ratio/</guid>
-      <description>젓갈로 무치거나 볶는 밑반찬은 젓갈 자체의 염도가 제품마다 크게 달라 같은 양을 넣어도 짠맛 차이가 큽니다. 젓갈 종류별 염도 차이를 확인하고 희석하는 기준을 정리했습니다.</description>
-      <category>밑반찬·저장음식</category>
       <pubDate>Tue, 07 Jul 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
