@@ -604,5 +604,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["stainless-pan-preheat", "pan-coating-care"]
+  },
+  {
+    slug: "freezer-organizing",
+    title: "냉동실 정리, 오래된 재료 놓치지 않는 법",
+    summary:
+      "냉동실은 한번 채워두면 안쪽까지 눈에 잘 들어오지 않아서, 뒤쪽으로 밀린 재료를 언제 넣었는지 까먹고 방치하다가 결국 버리게 되는 경우가 많습니다. 라벨링과 배치 기준을 정리했습니다.",
+    category: "ingredients",
+    publishedAt: "2026-07-27",
+    updatedAt: "2026-07-27",
+    featured: false,
+    hasFaq: true,
+    related: ["ground-meat-freezing", "vegetable-storage"]
   }
 ];
