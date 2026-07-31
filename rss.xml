@@ -5,8 +5,16 @@
     <link>https://www.zipbabstudio.com/</link>
     <description>집에서 만드는 든든한 한 끼, 집밥연구소 - 요리 초보자와 집밥을 즐기는 사람들을 위한 요리 정보 사이트</description>
     <language>ko-KR</language>
-    <lastBuildDate>Mon, 27 Jul 2026 06:30:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 18:30:00 +0900</lastBuildDate>
     <atom:link href="https://www.zipbabstudio.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>완벽한 레시피보다 유연한 기준이 필요한 이유</title>
+      <link>https://www.zipbabstudio.com/columns/flexible-standard-over-perfect-recipe/</link>
+      <guid isPermaLink="true">https://www.zipbabstudio.com/columns/flexible-standard-over-perfect-recipe/</guid>
+      <description>레시피를 한 치의 오차 없이 재현하려는 시도보다, 상황에 맞춰 조정할 수 있는 기준이 실제로는 더 도움이 됐습니다. 콘텐츠를 정리하며 느낀 표준화와 적응력 사이의 생각을 정리했습니다.</description>
+      <category>칼럼</category>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>냉동실 정리, 오래된 재료 놓치지 않는 법</title>
       <link>https://www.zipbabstudio.com/posts/freezer-organizing/</link>
@@ -236,14 +244,6 @@
       <link>https://www.zipbabstudio.com/columns/fridge-cleanout-trend/</link>
       <guid isPermaLink="true">https://www.zipbabstudio.com/columns/fridge-cleanout-trend/</guid>
       <description>냉장고 파먹기라는 말이 낯설지 않을 만큼 자주 보이는 요즘, 콘텐츠를 정리하는 입장에서 이 흐름을 어떻게 보고 있는지 정리했습니다.</description>
-      <category>칼럼</category>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>밀키트가 늘어나도 기본기가 필요한 이유</title>
-      <link>https://www.zipbabstudio.com/columns/mealkit-basics-still-matter/</link>
-      <guid isPermaLink="true">https://www.zipbabstudio.com/columns/mealkit-basics-still-matter/</guid>
-      <description>밀키트와 간편식이 늘어나면서 요리가 쉬워졌다고들 하지만, 조리 원리를 모르면 포장지 설명과 조금만 달라져도 결과가 흔들립니다. 콘텐츠를 정리하며 느낀 간편식과 기본기 사이의 관계를 정리했습니다.</description>
       <category>칼럼</category>
       <pubDate>Tue, 07 Jul 2026 00:00:00 +0900</pubDate>
     </item>
