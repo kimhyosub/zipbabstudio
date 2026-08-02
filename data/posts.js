@@ -616,5 +616,17 @@ window.POSTS = [
     featured: false,
     hasFaq: true,
     related: ["ground-meat-freezing", "vegetable-storage"]
+  },
+  {
+    slug: "eomuk-bokkeum-storage",
+    title: "어묵볶음 눅눅해지지 않게 보관하는 법",
+    summary:
+      "어묵볶음은 만들 때는 쫄깃하지만 통에 담아두면 금방 눅눅해지고 기름이 겉돌기 쉽습니다. 수분과 기름기를 정리하는 방법과 보관 용기 고르는 기준을 정리했습니다.",
+    category: "banchan",
+    publishedAt: "2026-08-03",
+    updatedAt: "2026-08-03",
+    featured: false,
+    hasFaq: true,
+    related: ["myeolchi-bokkeum", "container-guide"]
   }
 ];

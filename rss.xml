@@ -5,8 +5,16 @@
     <link>https://www.zipbabstudio.com/</link>
     <description>집에서 만드는 든든한 한 끼, 집밥연구소 - 요리 초보자와 집밥을 즐기는 사람들을 위한 요리 정보 사이트</description>
     <language>ko-KR</language>
-    <lastBuildDate>Fri, 31 Jul 2026 18:30:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 06:30:00 +0900</lastBuildDate>
     <atom:link href="https://www.zipbabstudio.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>어묵볶음 눅눅해지지 않게 보관하는 법</title>
+      <link>https://www.zipbabstudio.com/posts/eomuk-bokkeum-storage/</link>
+      <guid isPermaLink="true">https://www.zipbabstudio.com/posts/eomuk-bokkeum-storage/</guid>
+      <description>어묵볶음은 만들 때는 쫄깃하지만 통에 담아두면 금방 눅눅해지고 기름이 겉돌기 쉽습니다. 수분과 기름기를 정리하는 방법과 보관 용기 고르는 기준을 정리했습니다.</description>
+      <category>밑반찬·저장음식</category>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>완벽한 레시피보다 유연한 기준이 필요한 이유</title>
       <link>https://www.zipbabstudio.com/columns/flexible-standard-over-perfect-recipe/</link>
@@ -238,14 +246,6 @@
       <description>자취를 처음 시작하면 장바구니에 뭘 담아야 할지부터 막막합니다. 자주 쓰는 재료부터 채우는 기준으로 첫 장보기 우선순위를 정리했습니다.</description>
       <category>자취요리·초보 입문</category>
       <pubDate>Wed, 08 Jul 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>냉장고 파먹기가 유행하는 이유를 보며 든 생각</title>
-      <link>https://www.zipbabstudio.com/columns/fridge-cleanout-trend/</link>
-      <guid isPermaLink="true">https://www.zipbabstudio.com/columns/fridge-cleanout-trend/</guid>
-      <description>냉장고 파먹기라는 말이 낯설지 않을 만큼 자주 보이는 요즘, 콘텐츠를 정리하는 입장에서 이 흐름을 어떻게 보고 있는지 정리했습니다.</description>
-      <category>칼럼</category>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
