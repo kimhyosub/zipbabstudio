@@ -475,12 +475,12 @@ window.POSTS = [
   },
   {
     slug: "measuring-tool-substitute",
-    title: "계량스푼·계량컵 없을 때 대체하는 법",
+    title: "저울·계량컵 없이 집에 있는 용기로 어림잡는 법",
     summary:
-      "계량스푼이나 계량컵이 없을 때 아무 숟가락이나 컵으로 대충 재면 간이 흔들리기 쉽습니다. 일반 숟가락·종이컵으로 대체하는 기준을 정리했습니다.",
+      "저울이나 계량컵이 없을 때 레시피의 '1컵', '200g' 같은 표기를 어떻게 어림잡아야 할지 막막할 수 있습니다. 흔한 생활 용기들의 대략적인 용량 기준을 정리했습니다.",
     category: "kitchen-tools",
     publishedAt: "2026-07-11",
-    updatedAt: "2026-07-11",
+    updatedAt: "2026-08-03",
     featured: false,
     hasFaq: true,
     related: ["measuring-spoon-rice-spoon", "starter-tools"]
