@@ -12,9 +12,9 @@ window.POSTS = [
       "무생채가 싱겁거나 짜지는 이유는 대부분 소금 타이밍과 물기 제거에 있습니다. 기본 비율과 순서를 정리했습니다.",
     category: "banchan",
     publishedAt: "2026-02-14",
-    updatedAt: "2026-02-14",
+    updatedAt: "2026-07-29",
     featured: true,
-    hasFaq: false,
+    hasFaq: true,
     related: ["banchan-storage", "myeolchi-bokkeum"]
   },
   {
