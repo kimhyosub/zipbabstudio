@@ -12,9 +12,9 @@ window.POSTS = [
       "무생채가 싱겁거나 짜지는 이유는 대부분 소금 타이밍과 물기 제거에 있습니다. 기본 비율과 순서를 정리했습니다.",
     category: "banchan",
     publishedAt: "2026-02-14",
-    updatedAt: "2026-02-14",
+    updatedAt: "2026-07-29",
     featured: true,
-    hasFaq: false,
+    hasFaq: true,
     related: ["banchan-storage", "myeolchi-bokkeum"]
   },
   {
@@ -48,9 +48,9 @@ window.POSTS = [
       "김치볶음밥이 애매한 맛이 되는 건 대개 김치 상태와 넣는 순서 때문입니다. 기본 순서를 단계별로 정리했습니다.",
     category: "one-dish",
     publishedAt: "2026-03-20",
-    updatedAt: "2026-06-02",
+    updatedAt: "2026-07-29",
     featured: true,
-    hasFaq: false,
+    hasFaq: true,
     related: ["bokkeumbap-rice", "one-bowl-balance"]
   },
   {
